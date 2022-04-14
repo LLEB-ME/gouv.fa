@@ -25,10 +25,10 @@ build_search_index= true
 build_search_index= true
 
 # i18n (unofficial)
-[languages.it]
+[languages.ri]
 build_search_index= false
-[languages.it.translations]
-notice= "Italian is not an official language in the LLEB community. This translation is provided for information purposes only and is provided to the community by the community."
+[languages.ri.translations]
+notice= "Rishi Dialect is not an official language in the LLEB community. This translation is provided for information purposes only and is provided to the community by the community."
 
 [extra]
-unofficial= ["it"]
+unofficial= ["ri"]

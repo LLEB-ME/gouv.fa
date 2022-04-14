@@ -31,7 +31,7 @@
           {% set ctx = section %}
         {% endif %}
         
-        {% set_global langs = ["en","es","fr","it"] %}
+        {% set_global langs = ["en","es","fr","ri"] %}
         {% set_global openLangs = [] %}
         {% for translation in ctx.translations %}
           {% set_global openLangs = openLangs | concat(with=translation.lang) %}
