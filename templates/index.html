@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Main page</h1>
+{% if config.extra.unofficial is containing(section.lang) %}
+<p><strong>{{ trans(key="notice", lang=lang)}}</strong></p>
+<br/>
+{% endif %}
+
+{{ section.content | safe }}
+
+{% endblock content %}

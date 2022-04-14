@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{page.title}}
+</h1>
+{% if config.extra.unofficial is containing(page.lang) %}
+<p><strong>{{ trans(key="notice", lang=lang)}}</strong></p>
+<br/>
+{% endif %}
+
+<section>
+  {{ page.content | safe }}
+</section>
+{% endblock content %}
