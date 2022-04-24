@@ -41,5 +41,5 @@ We cache:
     - Official feed: `https://gov.lleb/atom.xml`
 - [Matthew Ronchetto](https://maatt.ch)
     - Official feed: `https://maatt.ch/atom.xml`
-    = Internal feed: `https://matt.lleb/atom.xml`
+    - Internal feed: `https://matt.lleb/atom.xml`
     
