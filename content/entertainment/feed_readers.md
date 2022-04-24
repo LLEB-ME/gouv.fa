@@ -20,26 +20,26 @@ We cache some major feeds. You can request [with a GitHub issue](https://github.
 
 We cache:
 - [Axios](https://axios.com)
-    Official feed: `https://api.axios.com/feed/`
-    Internal feed: `https://rss.lleb/axios.rss`
+    - Official feed: `https://api.axios.com/feed/`
+    - Internal feed: `https://rss.lleb/axios.rss`
 - [European Commission](https://ec.europa.eu)
-    Official feed: `https://ec.europa.eu/commission/presscorner/api/rss?latestnews?language=en&ts=1649465082939`
-    Internal feed: `https://rss.lleb/ec-europa`
+    - Official feed: `https://ec.europa.eu/commission/presscorner/api/rss?latestnews?language=en&ts=1649465082939`
+    - Internal feed: `https://rss.lleb/ec-europa`
 - [European Parliament](https://europarl.europa.eu)
-    Official feed: `https://www.europarl.europa.eu/rss/doc/press-releases/en.xml`
-    Internal feed: `https://rss.lleb/europarl`
+    - Official feed: `https://www.europarl.europa.eu/rss/doc/press-releases/en.xml`
+    - Internal feed: `https://rss.lleb/europarl`
 - [France 24](https://france24.com)
-    Official feed: `https://www.france24.com/en/rss`
-    Internal feed: `https://rss.lleb/france24-en`
+    - Official feed: `https://www.france24.com/en/rss`
+    - Internal feed: `https://rss.lleb/france24-en`
 - [France 24 (Français)](https://france24.com/fr)
-    Official feed: `https://www.france24.com/fr/rss`
-    Internal feed: `https://rss.lleb/france24-fr`
+    - Official feed: `https://www.france24.com/fr/rss`
+    - Internal feed: `https://rss.lleb/france24-fr`
 - [KPBS](https://kpbs.org)
-    Official feed: `https://www.kpbs.org/index.rss`
-    Internal feed: `https://rss.lleb/kpbs.rss`
+    - Official feed: `https://www.kpbs.org/index.rss`
+    - Internal feed: `https://rss.lleb/kpbs.rss`
 - [LLEB](https://gov.lleb)
-    Official feed: `https://gov.lleb/atom.xml`
+    - Official feed: `https://gov.lleb/atom.xml`
 - [Matthew Ronchetto](https://maatt.ch)
-    Official feed: `https://maatt.ch/atom.xml`
-    Internal feed: `https://rss.lleb/mronchetto.rss`
+    - Official feed: `https://maatt.ch/atom.xml`
+    = Internal feed: `https://matt.lleb/atom.xml`
     
