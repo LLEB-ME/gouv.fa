@@ -1,9 +1,9 @@
 +++
-title= "Connecting to the LLEB network"
+title= "Connecting to the Farer network"
 +++
 
-# Connecting via Tailscale to LLEB servers
-Tailscale will automatically adjust your DNS to allow domains such as `*.lleb` to use LLEB DNS servers. In lamest terms, Tailscale will make `.lleb` domains magically work while still keeping the load on LLEB servers light. You can see view what is controlled from [our public Tailscale logs.](/tailscale/DNS.txt)
+# Connecting via Tailscale to Farer servers
+Tailscale will automatically adjust your DNS to allow domains such as `*.fa` to use Farer DNS servers. In lamest terms, Tailscale will make `.fa` domains magically work while still keeping the load on Farer servers light. You can see view what is controlled from [our public Tailscale logs.](/tailscale/DNS.txt)
 
 ## Connecting to Samba servers
 You may need to request that the server owner enables `Windows File Sharing` if you are using a Windows computer.

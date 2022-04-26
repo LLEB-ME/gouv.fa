@@ -4,12 +4,19 @@ title= "Generating SSL certificates"
 
 Certificates must meet a certain requirement:
 - The common name must either be the primary domain being signed or the name of the company or the individual the certificate is being created for.
-- The location for certificates used for LLEB services must be the location of planned host, or current host
-    - The planned host can be one of the following: `Shitville, Colorado`, `Paris, Ile-De-France`, `Lausanne, Vaud`
-    - The current host can only be one of the following: `San Diego, California`, `The Dalles, Oregon`, `San Jose, California`
-- The organisation name for LLEB services must be `Haven Municipal` or `Haven Municipal Govt.`
-- The common name for LLEB services must be the primary domain being signed with ownership declared to `Haven Municipal`
-    - An exemption of signed ownership for servers owned by LLEB; ownership should then be declared to `LLEB`
+- The location for certificates used for community services must be the location of a planned host or current host.
+    - The planned host can be one of the following:
+      - `Shitville, Colorado, US`,
+      - `Paris, Ile-De-France, FR`; or:
+      - `Lausanne, Vaud, CH`.
+    - The current host can only be one of the following:
+      - `San Diego, California, US`,
+      - `San Jose, California, US`,
+      - `Chicago, Illinois, US`,
+      - `Paris, Ile-De-France, FR`; or:
+      - `Tokyo, `
+- The common name for community services must be the primary domain being signed with ownership declared to `The Farer Group`
+    - An exemption of signed ownership for servers owned by LLEB; ownership should then be declared to `lleb labs`
 - The length until expiration must be 730 days or less. This is to prevent issues on Apple devices.
 
 ## Using Keychain Access and OpenSSL (recommended)

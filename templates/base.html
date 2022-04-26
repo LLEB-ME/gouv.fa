@@ -31,7 +31,7 @@
           {% set ctx = section %}
         {% endif %}
         
-        {% set_global langs = ["en","es","fr","ri"] %}
+        {% set_global langs = ["en","es","fr"] %}
         {% set_global openLangs = [] %}
         {% for translation in ctx.translations %}
           {% set_global openLangs = openLangs | concat(with=translation.lang) %}
@@ -61,8 +61,7 @@
   </main>
   <footer>
     <a href="#top">Top of page.</a>
-    <p>&copy; 2022 lleb / shitville / haven. a right reserved, probably.</p>
-    <p>&copy; 2038. also &copy; 1925.</p>
+    <p>&copy; 2022 The Farer Group. <a href="https://gov.fa/code-licensing">Some rights reserved.</a></p>
   </footer>
 </body>
 </html>
