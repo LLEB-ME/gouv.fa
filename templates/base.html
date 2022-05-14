@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   {% if page.title %}
-    {% set title=page.title %}
+    {% set title=page.title ~ " — service-public.fa" %}
   {% elif section.title %}
-    {% set title=section.title %}
+    {% set title=section.title ~ " — service-public.fa" %}
   {% else %}
     {% set title=config.title %}
   {% endif %}
@@ -61,7 +61,7 @@
   </main>
   <footer>
     <a href="#top">Top of page.</a>
-    <p>&copy; 2022 The Farer Group. <a href="https://gov.fa/code-licensing">Some rights reserved.</a></p>
+    <p>&copy; 2022 The Farer Group. <a href="/public/code-licensing">Some rights reserved.</a></p>
   </footer>
 </body>
 </html>
