@@ -1,5 +1,6 @@
 +++
 title= "Inviting others to Farer"
+aliases= ["/N1001"]
 date= "2022-05-14T21:25:00Z"
 +++
 

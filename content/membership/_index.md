@@ -1,5 +1,6 @@
 +++
 title="Membership - papers"
+aliases= ["/N1000"]
 date="2022-05-14T21:30:00Z"
 +++
 

@@ -1,5 +1,6 @@
 +++
 title= "Farer code licensing"
+aliases= ["/N4001"]
 date= "2022-05-14T20:50:00Z"
 +++
 

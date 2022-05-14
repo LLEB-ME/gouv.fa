@@ -1,5 +1,6 @@
 +++
 title="Contact Farer or a staff member"
+aliases= ["/N4002"]
 date= "2022-05-14T21:11:00Z"
 +++
 

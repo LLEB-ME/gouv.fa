@@ -1,5 +1,6 @@
 +++
 title= "Obtain an Attestation d'affiliation"
+aliases= ["/N1002"]
 date="2022-05-14T21:02:00Z"
 +++
 

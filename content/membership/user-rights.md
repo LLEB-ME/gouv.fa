@@ -1,5 +1,6 @@
 +++
 title="Your rights and obligations as a user within Farer"
+aliases= ["/N1003"]
 date="2022-05-14T21:20:00Z"
 +++
 
