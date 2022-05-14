@@ -47,6 +47,18 @@ footer {
   margin-top: 2rem;
 }
 
+.g {
+  display: flex;
+  flex-wrap: wrap;
+  & > div  {
+    @media (min-width: 37em) { width: 50%; }
+    @media (min-width: 60em) {
+      width: 20%;
+      text-align: center;
+    }
+  }
+}
+
 ul {
   li{ margin: .3rem 0;}
   li:first-child { margin-top: 0; }
