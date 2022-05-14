@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://help.fa"
-title= "Help — Farer"
+base_url = "https://service-public.fa"
+title= "service-public.fa"
 
 default_language= "en"
 compile_sass = true
