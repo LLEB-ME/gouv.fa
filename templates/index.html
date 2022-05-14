@@ -2,11 +2,48 @@
 
 {% block content %}
 <h1>Main page</h1>
-{% if config.extra.unofficial is containing(section.lang) %}
-<p><strong>{{ trans(key="notice", lang=lang)}}</strong></p>
-<br/>
-{% endif %}
 
-{{ section.content | safe }}
+<section>
+	<h2>Beta navigation:</h2>
+	<div class="g">
+		<div>
+			<h3><a href="/membership">Membership — papers</a></h3>
+			<p>
+				<a href="/membership/obtain-certificate">Obtain a CM,</a> <a href="/membership/user-rights">see your rights and obligations within the network,</a> <a href="/membership/invite-others">invite other users to the network</a>...
+			</p>
+		</div>
+		<div>
+			<h3><a href="/services">Member services</a></h3>
+			<p>
+				<a href="/membership/knox-sso">Access the Single Sign-On portal</a>, <a href="/membership/support">get help connecting to Farer on other devices</a>, <a href="/services/list">see what services you have access to</a>... 
+			</p>
+		</div>
+		<div>
+			<h3><a href="/services/farernic">FarerNIC</a></h3>
+			<p>
+				<a href="/services/farernic/register">Register a domain</a>, <a href="/services/farernic/dns">edit internal DNS records,</a> <a href="/services/farernic/hosting">host a website on Farer servers</a>...
+			</p>
+		</div>
+		<div>
+			<h3><a href="/public">Public services</a></h3>
+			<p>
+				<a href="/public">Learn about the Farer Group</a>, <a href="/services/farernic/dns">our intranet,</a> <a href="/services/farernic/hosting"></a>...
+			</p>
+		</div>
+		<div>
+			<h3><a href="/archive">Public Archive</a></h3>
+			<p>
+				<a href="/archive/wiki">View old, raw versions of the wiki</a>, <a href="/archive/oss">view deprecated software,</a> <a href="/fedlex">access the Fedlex</a>...
+			</p>
+		</div>
+	</div>
+</section>
+
+---
+
+<section>
+	<p>Legacy navigation:</p>
+	{{ section.content | safe }}
+</section>
 
 {% endblock content %}
