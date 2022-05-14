@@ -8,9 +8,7 @@ When you join Farer, you gain access to our intranet and services. However, if y
 
 If you became a member after 14 May, 2022, then you will be provided with a digital ID card. You were also given a PDF or printed copy of your certificate of membership. You will soon have access to an "Add to Apple Wallet" option to save it to your iPhone both upon initial provision or [by requesting the badge again online.](https://gouv.fa/ada-request)
 
-Your physical ID card never expires, neither does your digital ID card. Cards added to Apple Wallet may expire after a period of time and require being re-added via Gouv.fa.
-
-ID cards may be revoked 
+Your physical ID card never expires, neither does your digital ID card. Cards added to Apple Wallet may expire after a period of time and require being re-added via Gouv.fa. ID cards will be revoked digitally upon renouncing Farer membership.
 
 ## Applying for a Certificate of Membership
 If you were a member prior to the cut-off date or were never provided a certificate of membership, you will need to complete a few steps to be able to request your certificate of membership.
