@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://assist.lleb"
+base_url = "https://help.fa"
+title= "Help — Farer"
 
 default_language= "en"
 compile_sass = true
@@ -25,10 +26,10 @@ build_search_index= true
 build_search_index= true
 
 # i18n (unofficial)
-[languages.ri]
-build_search_index= false
-[languages.ri.translations]
-notice= "Rishi Dialect is not an official language in the LLEB community. This translation is provided for information purposes only and is provided to the community by the community."
+#[languages.ri]
+#build_search_index= false
+#[languages.ri.translations]
+#notice= "Rishi Dialect is not an official language. This translation is provided for information purposes only and is provided to the community by the community."
 
-[extra]
-unofficial= ["ri"]
+#[extra]
+#unofficial= []

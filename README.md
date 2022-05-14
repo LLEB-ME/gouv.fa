@@ -10,9 +10,7 @@
 
 ### for staff
 0. normal setup
-1. [setup a git remote for `git.lleb:/srv/repos/wiki.lleb`](https://www.maatt.ch/blog/aws-to-1984/#git-hooks-the-secret-sauce-to-having-a-sane-deploy)
+1. [setup a git remote for 
+`100.80.243.84:/srv/repos/help.fa`](https://www.maatt.ch/blog/aws-to-1984/#git-hooks-the-secret-sauce-to-having-a-sane-deploy)
 2. push to `prod` when ready for production. push to `origin` or `gh` when not.
    - If you push to prod, read the console output. It will tell you if the build fails or not.
-
-there is also `root@100.113.132.65:/media/persist/srv/repos/wiki.lleb`
-

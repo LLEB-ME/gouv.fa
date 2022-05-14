@@ -3,7 +3,7 @@ title= "Management Wiki"
 aliases= ["/en/"]
 +++
 
-Welcome to the lleb labs wiki! You can find infromation on most things inside the organization ranging from the variety of services we offer to documentation on our infrastructure. Everything except God.
+Welcome to the Farer help centre. You can find infromation on most things inside the organization ranging from the variety of services we offer to documentation on our infrastructure.
 
 
 ### Encryption
