@@ -19,7 +19,7 @@ If you were a member prior to the cut-off date or were never provided a certific
   - the public key of your `.fa` domain, amongst others.
 2. **[Submit your request.](https://gouv.fa/ada-request)**
 
-After a submitted request, it can take up to a week to get a request approved and documents returned. If it takes longer than one week, you should [contact a staff member directly.](@/public/contact.md) Your certificate will be available for download or, if an address is provided and the service is requested, posted for free. Additional printed copies are free, plus the cost of shipping the certificate.
+After a submitted request, it can take up to a week to get a request approved and documents returned. If it takes longer than one week, you should [contact a staff member directly.](@/public/contact.md) Your certificate will be available for download or, if an address is provided and the service is requested, posted for free. Additional printed copies are free, plus the cost of shipping the certificate. Payment must be completed via Zelle transfer, if in the United States, or via a cash equivalent at the time of postmark.
 
 ## Applying for an ID card
 1. **Gather your documents—** you will need to be able to prove your identity, as well as your membership via the intranet. Documents that can be useful are:
@@ -35,4 +35,4 @@ After a submitted request, it can take up to a week to get a request approved an
   - a plain white or off-white background.
 3. **[Submit your request.](https://gouv.fa/id-request)**
 
-Your first ID card is free. Replacements are 5 US dollars per card, plus the cost of shipping with the original card's information being destroyed. You can request a replacement by following the same procedure as above. 
+Your first ID card is free. Replacements are 5 USD per card, plus the cost of shipping with the original card's information being destroyed. You can request a replacement by following the same procedure as above. Payment must be completed via Zelle transfer, if in the United States, or via a cash equivalent at the time of postmark.
