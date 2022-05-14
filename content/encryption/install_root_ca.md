@@ -12,7 +12,6 @@ title= "Installing the Root CA certificates"
 
 You can download the root certificate from the public certstore:
 - HTTP: `http://certstore.fa` ([fallback](https://github.com/farer-group/wiki/blob/main/certstore/ca.cer))
-- [Mega](#)
 
 ### Windows
 Double-click on the certificiate and select `Install Certificate...`. You will have to install the certificate twice: once for "Current User" and again for "Local Machine." Select `Place all certificates in the following store`, `Browse...`, and store it in the `Trusted Root Certification Authorities` store. After installing, you will need to restart your computer.

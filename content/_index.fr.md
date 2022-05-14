@@ -14,13 +14,13 @@ Avant d'essayer de contribuer au contenu, lisez [la Politique de contribution](/
 - [Les lecteurs de flux et vous](@/entertainment/feed_readers.md)
 
 ### LLEB et Vous
-- [Authentification en LLEB](@/lleb-and-you/authentication.md)
-- [Connexion aux serveurs de fichiers LLEB](@/lleb-and-you/remote.md)
-- [Voter pour les services, les politiques, etc.](@/lleb-and-you/voting.md)
-- [Recherche de services](@/lleb-and-you/find_services.md)
-- [Obtention d'un nom de domaine et hébergement en interne](@/lleb-and-you/domains_and_hosting.md)
-- [Obtenir l'adhésion, inviter d'autres personnes et quitter LLEB](@/lleb-and-you/membership.md)
-- [Méthodologie derrière les services et les recommandations des clients](@/lleb-and-you/app_choice.md)
+- [Authentification en LLEB](@/farer-and-you/authentication.md)
+- [Connexion aux serveurs de fichiers LLEB](@/farer-and-you/remote.md)
+- [Voter pour les services, les politiques, etc.](@/farer-and-you/voting.md)
+- [Recherche de services](@/farer-and-you/find_services.md)
+- [Obtention d'un nom de domaine et hébergement en interne](@/farer-and-you/domains_and_hosting.md)
+- [Obtenir l'adhésion, inviter d'autres personnes et quitter LLEB](@/farer-and-you/membership.md)
+- [Méthodologie derrière les services et les recommandations des clients](@/farer-and-you/app_choice.md)
 
 ### Kubernetes
 - [Rotation d'un nœud de serveur](@/kubernetes/server.md)

@@ -6,8 +6,8 @@ We're not a government: so, we have a lot of flexibility to how we handle things
 
 ## Promotion into Staff
 There are two types of staff members: permanent and voted. There are three permanent seats, occupied by:
-- Daniel Calderon—   founder
-- Matthew Ronchetto— founder
+- Daniel Calderon—   co-founder, server maintainer
+- Matthew Ronchetto— co-founder, server maintainer
 - Vacancy
 
 Permanent seats are not eligible for demotion unless by vote of staff (see `Demotion of Staff by Staff`). Voted seats can be made by nomination by creating an issue in this (`farer-group/wiki`) GitHub repository citing the person being nominated, why they should be voted in, and an affirmation that they will continue to [follow the membership guidelines.](@farer-and-you/membership.md)
