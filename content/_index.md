@@ -5,9 +5,6 @@ aliases= ["/en/"]
 
 Welcome to the Farer help centre. You can find infromation on most things inside the organization ranging from the variety of services we offer to documentation on our infrastructure.
 
-### Encryption
-- [Installing the Root CA certificate](@/encryption/install_root_ca.md)
-
 ### Entertainment
 Before trying to contribute content, read the [Contribution policy](@/farer-and-you/contribution_policy.md)
 - [Contributing e-books](@/entertainment/contribute_opds.md)
@@ -16,7 +13,6 @@ Before trying to contribute content, read the [Contribution policy](@/farer-and-
 
 ### LLEB and You
 - [Authenticating into LLEB](@/farer-and-you/authentication.md)
-- [Connection to LLEB file servers](@/farer-and-you/remote.md)
 - [Voting for Services, Policies, Et al.](@/farer-and-you/voting.md)
 
 ---

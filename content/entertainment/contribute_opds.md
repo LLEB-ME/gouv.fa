@@ -25,7 +25,7 @@ Novels and similar text-only books must have a version in the EPUB format. Graph
 No book should be converted from another format to meet these requirements, unless caution and care is taken into ensuring that the conversion is a virtually identical copy and experience to the previous format. Poor conversions will be deleted and [follow the 3-strike policy.](@/farer-and-you/contribution_policy.md)
 
 ## Uploading to OPDS
-You will need to [use Samba](@/farer-and-you/remote.md) to connect to the OPDS server [using your Farer credentials.](@/farer-and-you/authentication.md) The Samba server is `100.111.158.128` and its share is `Calibre`.
+You will need to [use Samba](remote.md) to connect to the OPDS server [using your Farer credentials.](authentication.md) The Samba server is `100.111.158.128` and its share is `Calibre`.
 
 If a folder does not already exist, create one for the author of your book. Then, create a folder with the name of your book's title in the format that it appears on the cover. Inside, upload the following files:
 - the cover of the book
