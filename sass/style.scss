@@ -51,16 +51,17 @@ footer {
   display: flex;
   flex-wrap: wrap;
   & > div  {
-    @media (min-width: 592em) { width: 50%; }
-    @media (min-width: 960px) {
-      width: 20%;
-      text-align: center;
-    }
+    width: 100%;
     p {
       &:first-child {
         font-weight: 700;
         
       }
+    }
+    @media (min-width: 37em) { width: 50%; }
+    @media (min-width: 60em) {
+      width: 20%;
+      text-align: center;
     }
   }
 }
