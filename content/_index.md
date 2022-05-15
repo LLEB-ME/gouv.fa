@@ -18,6 +18,6 @@ Before trying to contribute content, read the [Contribution policy](@/farer-and-
 ---
 
 ### Need help?
-Use the Discord server (`X4h57jwqQq`) to talk with anyone. [We're working on replacing Discord,](https://github.com/LLEB-ME/wiki/issues/4) but leaving some means to mirror conversations for those not ready to make the leap.
+Use the Discord server to talk with anyone. [We're working on replacing Discord,](https://github.com/LLEB-ME/wiki/issues/4) but leaving some means to mirror conversations for those not ready to make the leap.
 
 **If there is an urgent issue, [use Signal to contact the staff.](https://signal.group/#CjQKIB4aklX7oIdMxAQGz5k01VjSn0q72AbkSBOWPlYP9ipUEhAg14RS_NU5lSVarHEL58XF)** Verify identites before communicating with internal means.
