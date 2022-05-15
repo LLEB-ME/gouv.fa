@@ -1,5 +1,4 @@
 +++
-title= "Management Wiki"
 aliases= ["/en/"]
 +++
 

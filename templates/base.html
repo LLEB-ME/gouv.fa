@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.title %}
     {% set title=page.title ~ " — service-public.fa" %}
+    <meta name="aff" />
   {% elif section.title %}
     {% set title=section.title ~ " — service-public.fa" %}
+    <meta name="bfff" />
   {% else %}
-    {% set title=config.title %}
+    <meta name="cff" />
+    {% set title="service-public.fa" %}
   {% endif %}
   <title>{{title}}</title>
   <link rel="stylesheet" href="/style.css" />
