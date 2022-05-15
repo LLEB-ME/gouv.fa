@@ -12,12 +12,4 @@ We use GitHub as our identity provider for Tailscale. This means that **you [mus
 
 For some services, you may need to create an account out-of-network to use services. We try to avoid this where possible, but it is not always a possibility. Currently, you will only need to do this with [Plex](https://plex.tv); we do not plan to expand this list. Once you have an account, you can request an invite from [`farer+plex@maatt.ch`](mailto:farer+plex@maatt.ch).
 
-## Changing your password
-You can change your password via the single sign-on portal in or out of network:
-- In-network: [`https://sso.fa`](https://sso.fa)
-- Out-of-network
-	- Owned server: [`https://sso.farer.group`](https://sso.farer.group)
-	- Rented server: [`https://farer-sso.maatt.ch`](https://farer-sso.maatt.ch)
 
-## Deleting your Farer credentials
-See [Leaving Farer](@/farer-and-you/membership.md)

@@ -7,7 +7,6 @@ Welcome to the Farer help centre. You can find infromation on most things inside
 
 ### Encryption
 - [Installing the Root CA certificate](@/encryption/install_root_ca.md)
-- [Generating SSL certificates](@/encryption/generate_ssl.md)
 
 ### Entertainment
 Before trying to contribute content, read the [Contribution policy](@/farer-and-you/contribution_policy.md)
@@ -19,13 +18,6 @@ Before trying to contribute content, read the [Contribution policy](@/farer-and-
 - [Authenticating into LLEB](@/farer-and-you/authentication.md)
 - [Connection to LLEB file servers](@/farer-and-you/remote.md)
 - [Voting for Services, Policies, Et al.](@/farer-and-you/voting.md)
-- [Finding services](@/farer-and-you/find_services.md)
-- [Getting a domain name and hosting internally](@/farer-and-you/domains_and_hosting.md)
-- [Gaining membership, inviting others, and leaving LLEB](@/farer-and-you/membership.md)
-- [Methodology behind services and client recommendations](@/farer-and-you/app_choice.md)
-
-### Kubernetes
-- [Spinning up a server node](@/kubernetes/server.md)
 
 ---
 
