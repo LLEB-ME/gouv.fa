@@ -6,7 +6,7 @@ date="2022-05-15T03:29:00Z"
 
 When you join Farer, you gain access to our intranet and services. However, if you misplace your credentials or lose access by other means, you will need to prove your identity to be re-admitted at the discretion of a staff member.
 
-If you became a member after 14 May, 2022, then you will be provided with a digital ID card. You will soon have access to an "Add to Apple Wallet" option to save it to your iPhone both upon initial provision or [by requesting the badge again online.](https://gouv.fa/ada-request)
+If you became a member after 14 May, 2022, then you will be provided with a digital ID card. You will soon have access to an "Add to Apple Wallet" option to save it to your iPhone both upon initial provision or [by requesting the badge again online.](https://gouv.fa/id-request)
 
 Your physical ID card never expires, neither does your digital ID card. Cards added to Apple Wallet may expire after a period of time and require being re-added via Gouv.fa. ID cards will be revoked digitally upon renouncing Farer membership.
 
