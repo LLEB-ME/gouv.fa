@@ -6,7 +6,15 @@ date= "2022-05-14T21:25:00Z"
 
 As a user, [you have the right](/membership/user-rights) to be able to invite other users to the network. [**There is an active proposal to change how inviting others works that you can view here.**](https://github.com/LLEB-ME/wiki/issues/20)
 
-As of 14 May, 2022, you cannot directly invite someone into the Farer Group. Invitations are done via recommendations. Recommendations must outline clearly the person's technological history and prove general competence to use Farer services. **You must affirm and attest that the person you invite will [follow the terms of membership.](@/membership/user-rights.md)** Failure for such may result in the suspension or removal of both the person invited and you from Farer.
+As of 14 May, 2022, you cannot directly invite someone into the Farer Group. Invitations are done via recommendations. Recommendations must outline clearly the person's technological history and prove general competence to use Farer services. 
+
+**You must affirm and attest that the person you invite will [follow the terms of membership.](@/membership/user-rights.md)** Failure for such may result in the suspension or removal of both the person invited and you from Farer. On GitHub, you would end the request with the following:
+```
+
+---
+
+I affirm and attest that the person being invited will follow the [terms of membership.](http://service-public.fa/membership/user-rights/) I understand that failure for the person to follow these terms may result in the suspension or removal of both the person invited and you from Farer.
+```
 
 ## Submitting a member recommendation
 1. **Collect general information and proofread—** recommendations should be written with good grammer in an official language and fit the guidelines to a tee.
