@@ -75,6 +75,11 @@ ul {
   li:first-child { margin-top: 0; }
   li:last-child { margin-bottom: 0; }
 }
+pre {
+  overflow-x: auto;
+  background: #3d3d3d;
+  padding: .5rem .5rem;
+}
 #sticky {
   display: none;
   top: 0;
