@@ -5,7 +5,7 @@ date= "2022-05-15T03:47:00Z"
 +++
 
 After [registering a domain,](/N2102) you can either host out-of-network or in-network.
-- **In-network (recommended)—** your site or service is hosted on official hardware or hosted on owned servers that have an internal IP address.
+- **In-network (recommended)—** your site or service is hosted on official hardware or hosted on <abbr title="A server that you already purchased and maintain yourself that is connected to the Farer network.">owned servers</abbr> that have an internal IP address.
 - **Out-of-network—** your site or service is hosted on <abbr title="A server that you pay for every month. Some hosts are Exoscale, OVH, Hetzner, et al.">rented servers</abbr> that does not have an internal IP address.
 
 Hosting in-network does not require you to provide your own server power, as we offer free static web hosting via FarerNIC.
