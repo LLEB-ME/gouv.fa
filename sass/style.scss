@@ -35,7 +35,11 @@ nav {
     flex-direction: row;
     align-items: center;
     svg > path { @media (prefers-color-scheme: 'dark') { fill: #fff; } }
-    p { margin-left: .5rem; }
+    p {
+      margin-left: 0 0 0 .5rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
   }
 }
 [aria-disabled="true"] {
@@ -78,6 +82,7 @@ ul {
 pre {
   overflow-x: auto;
   background: #3d3d3d;
+  color: #fff;
   padding: .5rem .5rem;
 }
 #sticky {
