@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://service-public.fa"
+base_url = "https://service-public.fa"
 title= "service-public.fa"
 
 default_language= "en"
