@@ -24,7 +24,11 @@ You can download the root certificate from the public certstore:
 Double-click on the certificiate and select `Install Certificate...`. You will have to install the certificate twice: once for "Current User" and again for "Local Machine." Select `Place all certificates in the following store`, `Browse...`, and store it in the `Trusted Root Certification Authorities` store. After installing, you will need to restart your computer.
 
 ### macOS
-Double-click on the certificate or import the certificate into [Keychain Access](https://support.apple.com/en-gb/guide/keychain-access/kyca1083/mac). When prompted, add the certificate to the `login` and `System` keychains. You may have to add the certificate twice. Select the "System" tab and filter to show "Certificates." Right-click on the `The Farer Group` certificate and select `Get info`. Under the `Trust` tab, select `Always Trust` for when using this certificate. 
+**Automatically:** Download the configuration profile below. Then, open System Preferences and navigate to `Profiles` and select `The Farer Group Root CA`. Select `Install`. You may have to manually trust it using Keychain Access (the instructions for such are in the "Manually" section).
+
+[Configuration profile](http://certstore.fa/FarerGroupCA.mobileconfig) ([fallback](https://github.com/lleb-me/wiki/blob/main/static/certstore/FarerGroupCA.mobileconfig))
+
+**Manually:** Double-click on the certificate or import the certificate into [Keychain Access](https://support.apple.com/en-gb/guide/keychain-access/kyca1083/mac). When prompted, add the certificate to the `login` and `System` keychains. You may have to add the certificate twice. Select the "System" tab and filter to show "Certificates." Right-click on the `The Farer Group` certificate and select `Get info`. Under the `Trust` tab, select `Always Trust` for when using this certificate. 
 
 ### Linux
 Create a directory for foreign CA certificates if one doesn't already exits (`sudo mkdir /usr/local/share/ca-certificates/extra`). Copy the CA certificate to this directory and update your `/etc/ca-certificates.conf`. (`sudo update-ca-certificates`)
@@ -43,4 +47,8 @@ Enter Chrome's settings and search for "Manage certificates." Under the "Authori
 Open the certificate, then enter the Settings app. Some distributions of Android may vary in which directory to follow to ensure the status of trust for the certificate. Most users will navigate to `Security -> Trusted Credentials -> User` to be able to check this.
 
 ### iDevices
-Open the certificate, then enter the Settings app. Navigate to `General` and scroll to the bottom, selecting on "VPN & Mobile Management" or similar. You will see a new profile labelled `The Farer Group`, selecting on `Install certificate`. After, go to `General -> About` and scroll to the bottom, selecting "Certificate Settings" or similar. Under "Root certificates", enable `The Farer Group` for full-trust (also known as allowing to be a Root Certificate).
+**Automatically:** Download the configuration profile below. Then, open Settings and navigate to `General -> VPN & Mobile Management` and select `The Farer Group Root CA`. Select `Install`. You may have to manually trust it via the "Root certificates" menu. (the instructions for such are in the "Manually" section).
+
+[Configuration profile](http://certstore.fa/FarerGroupCA.mobileconfig) ([fallback](https://github.com/lleb-me/wiki/blob/main/static/certstore/FarerGroupCA.mobileconfig))
+
+**Manually:** Open the certificate, then enter the Settings app. Navigate to `General` and scroll to the bottom, selecting on "VPN & Mobile Management" or similar. You will see a new profile labelled `The Farer Group`, selecting on `Install certificate`. After, go to `General -> About` and scroll to the bottom, selecting "Certificate Settings" or similar. Under "Root certificates", enable `The Farer Group` for full-trust (also known as allowing to be a Root Certificate).
