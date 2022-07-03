@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% set section = get_section(path=path) %}
+
+{% block content %}
+<h1 class="title">
+  {{section.title}}
+</h1>
+
+{% if section.content %}
+<section>
+  {{ section.content | safe }}
+  <hr/>
+</section>
+{% endif %}
+<section>
+  <ul>
+  {% set pages = section.pages %}
+  {% if paginator.pages %}
+    {% set pages = paginator.pages %}
+  {% endif %}
+  {% for post in pages %}
+    <li><a href="{{post.permalink | safe}}">{{post.title}}</a></li>
+  {% endfor %}
+  </ul>
+</section>
+{% if paginator.pages %}
+<nav class="pagination">
+    {% if paginator.previous %}
+        <a class="previous" href="{{ paginator.previous }}">‹ Previous page</a>
+    {% endif %}
+    {% if paginator.next %}
+        <a class="next" href="{{ paginator.next }}">Next page ›</a>
+    {% endif %}
+</nav>
+{% endif %}
+{% endblock content %}

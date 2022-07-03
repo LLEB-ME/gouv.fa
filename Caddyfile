@@ -1,0 +1,27 @@
+pubserv.fa {
+	encode zstd gzip
+	file_server
+	root * /srv/sites/pubserv.fa/public
+	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
+}
+
+#gouv.fa {
+#	encode zstd gzip
+#	file_server
+#	root * /srv/sites/gouv.fa/public
+#	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
+#}
+
+
+# Delete on 8 July, 2022
+wiki.lleb,
+service-public.fa {
+	encode zstd gzip
+	tls /srv/certs/wiki.lleb/public.pem /srv/certs/wiki.lleb/private.pem
+	redir http://pubserv.fa{uri} permanent
+}
+http://gov.lleb {
+	encode zstd gzip
+	redir http://gouv.fa{uri} permanent
+}
+

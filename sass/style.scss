@@ -52,25 +52,28 @@ footer {
 }
 
 .g {
-  display: flex;
-  flex-wrap: wrap;
-  & > div  {
-    width: 100%;
-    p {
-      &:first-child {
-        font-weight: 700; 
-      }
-    }
-    @media (min-width: 37em) {
-      width: 50%;
-      p > &:last-child {
-        text-align: left;
-      }
-    }
-    @media (min-width: 60em) {
-      width: 20%;
-      text-align: center;
-    }
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  @media (min-width: 37em) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    & > div { margin: 0 .5rem; }
+  }
+  @media (min-width: 60em) {
+    text-align: center;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.galt {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  & > div:last-child  {
+    &:last-child > h2 { margin-top: 0; }
+  }
+  @media (min-width: 37em) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    & > div { margin: 0 .5rem; }
+    & > div:last-child > h2 { margin-top: .83rem !important; }
   }
 }
 

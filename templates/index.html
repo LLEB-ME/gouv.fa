@@ -1,13 +1,22 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section>
-	<h2>🚧 Caution!</h2>
-	<p>This site is currently being re-designed for <a href="https://github.com/LLEB-ME/wiki/issues/16">the Farer re-brand.</a> Some information may not be up-to-date. Your most up-to-date data will be via the new navigation above. Other information has persisted to prevent missing data during these changes. Services such as Gouv.fa, FarerNIC, and others may not be live yet.</p>
+<section class="galt">
+	<div>
+		<h2>🚧 Caution!</h2>
+		<p> Some services such as online forms via Gouv.fa and FarerNIC may not be live yet as part of our rebrand to <a href="https://github.com/LLEB-ME/wiki/issues/16">Farer.</a> We appreciate and thank you for your patience as we rollout more over time.</p>
+	</div>
+	<div>
+		<h2>⚠️ Heads up!</h2>
+		<p>Service-Public.fa is now PubServ.fa. This is part of a process of making Farer simpler online and reducing confusion with international services. Wiki.LLEB, Service-Public.fa, and all .LLEB domains are scheduled to stop working on 8 July, 2022.</p>
+	</div>
 </section>
+<hr/>
 <section>
-	<h2>⚠️ Heads up!</h2>
-	<p>The old LLEB CA certificate has been deprecated. A new root certificate from The Farer Group has been issued and is starting to be used. <a href="/N2005">Learn more.</a>
+	<p>
+		Welcome to the Farer help centre. You can find infromation on most things inside the organization ranging from the variety of services we offer to documentation on our infrastructure.
+	</p>
+</section>
 <hr/>
 <section>
 	<div class="g">
@@ -30,15 +39,9 @@
 			</p>
 		</div>
 		<div>
-			<h3><a href="/N4000">Public services</a></h3>
-			<p>
-				<a href="/N4003">Information about the Farer Group</a>, <a href="/N4002">contact</a>, <a href="/N4006">branding usage</a>...
-			</p>
-		</div>
-		<div>
 			<h3><a href="/archive">Public Archive</a></h3>
 			<p>
-				<a href="/archive/wiki">Old wiki versions</a>, <a href="/archive/oss">deprecated software and projects</a>, <a href="/fedlex">Fedlex</a>...
+				<a href="/archive/oss">Deprecated software and projects</a>, <a href="/fedlex">Fedlex</a>...
 			</p>
 		</div>
 	</div>
@@ -47,7 +50,10 @@
 <hr/>
 
 <section>
-	{{ section.content | safe }}
+	<h3>Need help?</h3>
+	<p>
+		Use the Discord server to talk with anyone. <a href="https://github.com/LLEB-ME/wiki/issues/4">We're working on replacing Discord,</a> but leaving some means to mirror conversations for those not ready to make the leap. <strong>If there is an urgent issue, <a href="https://signal.group/#CjQKIB4aklX7oIdMxAQGz5k01VjSn0q72AbkSBOWPlYP9ipUEhAg14RS_NU5lSVarHEL58XF">use Signal to contact the staff.</a></strong> Verify identites before communicating with internal means.
+	</p>
 </section>
 
 {% endblock content %}
