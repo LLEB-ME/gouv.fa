@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://service-public.fa"
-title= "service-public.fa"
+base_url = "https://pubserv.fa"
+title= "pubserv.fa"
 
 default_language= "en"
 compile_sass = true
