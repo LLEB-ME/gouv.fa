@@ -12,6 +12,6 @@ There are certain methods of contact that are preferred above others for support
 
 ## Staff member contacts
 - **Calderon, Daniel—** co-founder, server maintainer<br/>
-  Email: [cyckl@gouv.fa](mailto:cyckl@gouv.fa) or [farer [at] daan.ws](mailto:farer@daan.ws)
+  Email: [cyckl@gouv.fa](mailto:cyckl@gouv.fa) or [farer [at] daniel.cafe](mailto:farer@daniel.cafe)
 - **Ronchetto, Matthew—** co-founded, server maintainer<br/>
-  Email: [matt@gouv.fa](mailto:matt@gouv.fa) or [farer [at] maatt.ch](mailto:farer@maatt.ch)
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa) or [hey [at] maatt.fr](mailto:hey@maatt.fr)
