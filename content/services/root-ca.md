@@ -6,8 +6,6 @@ date= "2022-05-15T03:59:00Z"
 
 Unless with a special exception, all websites in The Farer Group must use at minimum TLS 1.2 and HTTP/2. To ensure secure communications, **there is only one official root <abbr title="Certificate Authortiy">CA.</abbr>** 
 
-**⚠️ The old LLEB CA certificate has been deprecated. The Farer Group will maintain one root CA certificate and only endorse this certificate. Use other CA certificates at your own risk.**
-
 You can download the root certificate from the public certstore:
 - HTTP: [`http://certstore.fa`](http://certstore.fa) ([fallback](https://github.com/lleb-me/wiki/blob/main/static/certstore/rootca.cer))
 
