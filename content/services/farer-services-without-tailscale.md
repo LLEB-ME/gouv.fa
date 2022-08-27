@@ -13,5 +13,3 @@ Some services are accessible while not using a VPN. These services are:
 - Single sign-on— accessible via [sso.farer.group](https://sso.farer.group)
 
 You can find the public IP address for DNS servers via Tailscale's website or by requesting to a staff member.
-
-## 
