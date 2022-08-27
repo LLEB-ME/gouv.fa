@@ -1,7 +1,19 @@
-pubserv.fa {
+gouv.fa {
 	encode zstd gzip
 	file_server
 	root * /srv/sites/pubserv.fa/public
 	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
 }
 
+pubserv.fa,
+www.pubserv.fa,
+www.gouv.fa {
+	encode zstd gzip
+	redir https://gouv.fa/{uri}
+}
+
+#wiki.farer.group {
+#	encode zstd gzip
+#	file_server
+#	root * /srv/sites/farerwiki/public
+#}
