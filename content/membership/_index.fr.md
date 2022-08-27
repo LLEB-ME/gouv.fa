@@ -10,5 +10,5 @@ date="2022-05-14T21:30:00Z"
 
 ## Adhésion
 - [Inviter d'autres à Farer](@/membership/invite-others.md)
-- [Doits et obligations des membres](@/membership/user-rights.md)
+- [Droits et obligations des membres](@/membership/user-rights.md)
 - [Renoncer à l'adhésion](/N1004)
