@@ -15,7 +15,7 @@ If you were a member prior to the cut-off date or were never provided a certific
   - emails from GitHub with invites that are postmarked and include the email address tied to your GitHub account publicly,
   - the private certificate file of your FarerNIC's HTTPS certificate,
   - the public key of your `.fa` domain, amongst others.
-2. **[Submit your request.](https://gouv.fa/ada-request)**
+2. **[Submit your request.](https://sec.gouv.fa/request/ada)**
 
 After a submitted request, it can take up to a week to get a request approved and documents returned. If it takes longer than one week, you should [contact a staff member directly.](@/public/contact.md) Your certificate will be available for download or, if an address is provided and the service is requested, posted for free. Additional printed copies are free, plus the cost of shipping the certificate. Payment must be completed via Zelle transfer, if in the United States, or via a cash equivalent at the time of postmark.
 
