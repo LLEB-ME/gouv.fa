@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://pubserv.fa"
-title= "pubserv.fa"
+base_url = "https://gouv.fa"
+title= "Gouv.fa"
 
 default_language= "en"
 compile_sass = true
@@ -20,10 +20,10 @@ include_content= true
 # i18n
 [languages.en]
 build_search_index= true
-[languages.es]
-build_search_index= true
 [languages.fr]
 build_search_index= true
+#[languages.es]
+#build_search_index= true
 
 # i18n (unofficial)
 #[languages.ri]
