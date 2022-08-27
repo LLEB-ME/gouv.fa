@@ -7,7 +7,15 @@ gouv.fa {
 
 pubserv.fa,
 www.pubserv.fa,
-www.gouv.fa {
+www.gouv.fa,
+gov.fa,
+www.gov.fa,
+gob.fa,
+www.gob.fa,
+std.fa,
+www.std.fa,
+the.fa,
+www.the.fa {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
 }
