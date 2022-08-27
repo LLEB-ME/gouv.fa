@@ -27,14 +27,15 @@
           <p>Farer Public Services</p>
         </a>
       </div>
-      {#<div class="langs">
+      <div class="langs">
+        <a href="/search">search</a> |
         {% if page.translations %}
           {% set ctx = page %}
         {% elif section.translations %}
           {% set ctx = section %}
         {% endif %}
         
-        {% set_global langs = ["en","es","fr"] %}
+        {% set_global langs = ["en","fr"] %}
         {% set_global openLangs = [] %}
         {% for translation in ctx.translations %}
           {% set_global openLangs = openLangs | concat(with=translation.lang) %}
@@ -56,7 +57,7 @@
             <!-- Couldnt' find translation; no link-->
           {% endif %}
         {% endfor %}
-      </div>#}
+      </div>
     </nav>
   </header>
   <main class="section">
@@ -65,7 +66,7 @@
   <footer>
     <a href="#top">Top of page.</a>
     <p>&copy; 2022 The Farer Group. <a href="/public/code-licensing">Some rights reserved.</a></p>
-    <a href="https://gouv.fa">Gouv.fa</a> | <a href="https://pubserv.fa">PubServ.fa</a> | <a href="https://git.fa">Git.fa</a>
+    <a href="https://gouv.fa">Gouv.fa</a> | <a href="https://git.fa">Git.fa</a>
   </footer>
 </body>
 </html>
