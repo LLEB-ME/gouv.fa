@@ -13,9 +13,7 @@ www.gov.fa,
 gob.fa,
 www.gob.fa,
 std.fa,
-www.std.fa,
-the.fa,
-www.the.fa {
+www.std.fa {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
 }
