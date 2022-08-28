@@ -19,9 +19,25 @@ include_content= true
 
 # i18n
 [languages.en]
-build_search_index= true
+	build_search_index= true
+[languages.en.translations]
+	curlang= "Current locale."
+	notrans= "No translation available."
+	searchtitle= "search"
+	pubserv= "Farer Public Services"
+	topofpage= "Top of page."
+	copyright= "Some rights reserved."
+
 [languages.fr]
-build_search_index= true
+	build_search_index= true
+[languages.fr.translations]
+	curlang= "Langue actuel."
+	notrans= "Pas translation."
+	searchtitle= "rechercher"
+	pubserv= "Services publiques Farer"
+	topofpage= "Haut de page."
+	copyright= "Certains droits réservés."
+
 #[languages.es]
 #build_search_index= true
 
