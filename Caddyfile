@@ -1,6 +1,7 @@
 gouv.fa {
 	encode zstd gzip
 	file_server
+	redir / /{>Detected-Locale}/
 	root * /srv/sites/pubserv.fa/public
 	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
 }
