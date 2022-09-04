@@ -17,4 +17,4 @@ Si vous étiez membre avant la date limite ou on ne vous a jamais donné une att
   - la clé publique de votre domaine `.fa`.
 2. **[Enovyer votre demande.](https://sec.gouv.fa/request/ada)**
 
-Après une demande soumise, il peut s'écouler jusqu'à une semaine avant d'être approuvé et les documents retournés. Si cela prend plus de temps, [communiquez directement avec un membre du personnel.](@/public/contact.md) Votre certificat sera disponible pour téléchargemnt ou,si fourni, posté gratuitement. Les copies imprimées supplémentaires sont gratuites, plus les frais d'expédition du certificat. Le paiement doit être en euros.
+Après une demande soumise, il peut s'écouler jusqu'à une semaine avant d'être approuvé et les documents retournés. Si cela prend plus de temps, [communiquez directement avec un membre du personnel.](@/public/contact.md) Votre certificat sera disponible pour téléchargemnt ou, si fourni, posté gratuitement. Les copies imprimées supplémentaires sont gratuites, plus les frais d'expédition du certificat. Le paiement doit être en euros.
