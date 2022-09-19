@@ -1,6 +1,6 @@
 +++
 title="FarerNIC"
-aliases= ["/N2100/fr"]
+aliases= ["/N2100/fr", "/services/farernic/fr"]
 +++
 
 - [Accéder aux domaines .fa et .farer](@/services/farernic/accessing.fr.md)

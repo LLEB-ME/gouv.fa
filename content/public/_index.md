@@ -9,6 +9,7 @@ aliases= ["/N4000"]
 - [About service and client choices](/N4005)
 
 ## Uncategorised
+- [Chat roles](/N4007)
 - [Code licensing](/N4001)
 - [Contact Farer](/N4002)
 - [Branding usage](/N4006)
