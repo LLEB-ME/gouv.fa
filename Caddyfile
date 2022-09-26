@@ -1,4 +1,5 @@
-gouv.fa {
+gouv.fa
+http://gouv.fa {
 	encode zstd gzip
 	file_server
 	root * /srv/sites/pubserv.fa/public
@@ -10,10 +11,15 @@ www.pubserv.fa,
 www.gouv.fa,
 gov.fa,
 www.gov.fa,
-gob.fa,
-www.gob.fa,
 std.fa,
-www.std.fa {
+www.std.fa,
+http://pubserv.fa,
+http://www.pubserv.fa,
+http://www.gouv.fa,
+http://gov.fa,
+http://www.gov.fa,
+http://std.fa,
+http://www.std.fa {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
 }
