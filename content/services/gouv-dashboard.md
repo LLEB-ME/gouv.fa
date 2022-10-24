@@ -1,12 +1,15 @@
 +++
 title="Access your Gouv.fa account"
-aliases=["/N2001"]
+aliases=["/N2001", "/N2002"]
 date="2022-05-14T21:44:00Z"
 +++
 
-Your Gouv.fa account is pertinent to your membership. It stores:
-- a downloadable copy of your [Attestation d'affiliation](@/membership/obtain-certificate.md),
+Your Gouv.fa account is pertinent to your membership. It allows access to:
+- a downloadable copy of your [certificate of membership](@/membership/obtain-certificate.md),
 - downloadable copies of your [membership invitations](@/membership/invite-others.md),
+- a downloadble copy of your digital ID card,
+- your data and the scopes requested by services using Gouv.fa for logins; and:
+- the Farer network.
 
 This account acts as your hub for all things administrative-wise in Farer. It cannot be signed in with the Farer <abbr title="Single Sign-On">SSO</abbr> service, but is used to create your Farer SSO credentials. It acts as a honeypot for your membership documentation and related documents.
 
