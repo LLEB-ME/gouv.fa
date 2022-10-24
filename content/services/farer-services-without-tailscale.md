@@ -8,7 +8,6 @@ If you are unable to use Tailscale on a device due to the lack of a client and a
 
 ## Using the public DNS resolver
 Some services are accessible while not using a VPN. These services are:
-- Service-public.fa— accessible via [wiki.farer.group](https://wiki.farer.group)
 - Gouv.fa— accessible via [gouv.farer.group](https://gouv.farer.group) using your Gouv.fa credentials
 - Single sign-on— accessible via [sso.farer.group](https://sso.farer.group)
 
