@@ -5,10 +5,10 @@ aliases= ["/order/0001", "/fedlex/O0001"]
 +++
 
 ## I. What does this policy effect
-All documents produced by The Farer Group including, but not limited to: policies, orders, and dociuments necessary for a member to act on their rights; must be written in plain language. These documents should be written in English and have translations into French and Spanish, where phesibly possible.
+All documents produced by The Farer Group including, but not limited to: policies, orders, and documents necessary for a member to act on their rights; must be written in plain language. These documents should be written in English and have translations into French, where phesibly possible.
 
 ## II. Defining Plain language
-Plain English, plain French, and plain Spanish means that documents:
+Plain English and plain French, means that documents:
   - use gender neutral language, where appropriate,
   - is written at a a level of B1, and:
   - explains clearly what is effected by the policy and defining any language created in the document
