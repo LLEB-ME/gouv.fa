@@ -10,7 +10,7 @@ All documents produced by The Farer Group including, but not limited to: policie
 ## II. Defining Plain language
 Plain English, plain French, and plain Spanish means that documents:
   - use gender neutral language, where appropriate,
-  - is written at a a level of B1, and:
+  - is written at a level of B1, and:
   - explains clearly what is effected by the policy and defining any language created in the document
 
 ### IIa. Defining "a level of B1"
