@@ -5,10 +5,10 @@ aliases= ["/order/0001/fr", "/fedlex/O0001/fr"]
 +++
 
 ## I. Quel est l’effet de cette politique?
-Tout les documents fabriqué par The Farer Group including, notamment: politiques, commandes, et les documents nécessaires à membre d'agir sur leurs droits; doit être écrit en termes simples. Ces documents doit être écrit en anglais et á les translations en français et espagnol, si possible.
+Tout les documents fabriqué par The Farer Group y compris, notamment: politiques, commandes, et les documents nécessaires à membre d'agir sur leurs droits; doit être écrit en termes simples. Ces documents doit être écrit en anglais et á le translation en français, si possible.
 
 ## II. La définition pour Terms simples
-Anglais simple, français simple, et espagnol simple signifie qu'ces documents:
+Anglais simple et français simple signifie qu'ces documents:
   - utiliser un langage non sexiste, si possible,
   - est écrit à un niveau de B1, et:
   - explique clairement c'effet de la politique et la définition de toute langue créée dans le document.

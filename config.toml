@@ -38,14 +38,5 @@ include_content= true
 	topofpage= "Haut de page."
 	copyright= "Certains droits réservés."
 
-#[languages.es]
-#build_search_index= true
-
-# i18n (unofficial)
-#[languages.ri]
-#build_search_index= false
-#[languages.ri.translations]
-#notice= "Rishi Dialect is not an official language. This translation is provided for information purposes only and is provided to the community by the community."
-
 #[extra]
 #unofficial= []
