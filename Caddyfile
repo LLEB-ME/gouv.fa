@@ -5,15 +5,12 @@ gouv.fa {
 	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
 }
 
-pubserv.fa,
-www.pubserv.fa,
 www.gouv.fa,
 gov.fa,
 www.gov.fa,
-gob.fa,
-www.gob.fa,
-std.fa,
-www.std.fa {
+http://farer.,
+http://fa.,
+http://example.fa {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
 }
