@@ -1,9 +1,13 @@
-gouv.fa,
-http://gouv.fa {
+gouv.fa {
 	encode zstd gzip
 	file_server
 	root * /srv/sites/pubserv.fa/public
 	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
+}
+http://gouv.fa {
+	encode zstd gzip
+	file_server
+	root * /srv/sites/pubserv.fa/public
 }
 
 www.gouv.fa,
