@@ -1,4 +1,4 @@
-gouv.fa
+gouv.fa,
 http://gouv.fa {
 	encode zstd gzip
 	file_server
@@ -8,12 +8,15 @@ http://gouv.fa {
 
 www.gouv.fa,
 gov.fa,
-www.gov.fa,
-http://farer.:80,
-http://fa.:80,
-http://example.fa:80 {
+www.gov.fa {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
+}
+http://farer.,
+http://fa.,
+http://example.fa {
+	encode zstd gzip
+	redir http://gouv.fa/{uri}
 }
 
 #wiki.farer.group {
