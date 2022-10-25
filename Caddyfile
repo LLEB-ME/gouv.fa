@@ -9,9 +9,9 @@ http://gouv.fa {
 www.gouv.fa,
 gov.fa,
 www.gov.fa,
-http://farer.,
-http://fa.,
-http://example.fa {
+http://farer.:80,
+http://fa.:80,
+http://example.fa:80 {
 	encode zstd gzip
 	redir https://gouv.fa/{uri}
 }
