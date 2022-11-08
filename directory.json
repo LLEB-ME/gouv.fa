@@ -1,0 +1,106 @@
+[{
+	"name": "FarerNIC",
+	"description": "Register .FARER and .FA domains",
+	"url": "https://nic.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Lambda Systems",
+	"description": "Small engineerging research organisation",
+	"url": "https://lambda.ac.fa",
+	"tags": ["staff"]
+},  {
+	"name": "Mental Mello",
+	"description": "Small mental health research organisation",
+	"url": "https://mello.ac.fa",
+	"tags": ["staff"]
+}, {
+	"name": "Polytechnic Systems",
+	"description": "Small research engineerging research organisation",
+	"url": "https://polytechnic.fa",
+	"tags": ["staff"]
+}, {
+	"name": "The Libraries",
+	"description": "Meta search for digital content stored in Farer",
+	"url": "https://lib.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Farer Authentication Services",
+	"description": "Manage applications, scopes, and other data.",
+	"url": "https://sec.gouv.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Gitea",
+	"description": "Source code hosting",
+	"url": "https://git.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "E-mail",
+	"description": "E-mail service for Farer members",
+	"url": "https://mail.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "GoToSocial",
+	"description": "Mastodon-compatible social media platform.",
+	"url": "https://social.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "FreshRSS",
+	"description": "Subscription storage for RSS and Atom feds.",
+	"url": "https://freshrss.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Miniflux",
+	"description": "Subscription storage for RSS and Atom feeds.",
+	"url": "https://miniflux.fa",
+	"tags": ["staff"]
+}, {
+	"name": "Privatebin",
+	"description": "Pastebin service",
+	"url": "https://bin.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Matrix",
+	"description": "Federated messaging service.",
+	"url": "https://chat.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Jitsi Meet",
+	"description": "Encrypted online voice and video call service",
+	"url": "https://videocall.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Voice-over-IP Calling",
+	"description": "VoIP service for Farer staff and server maintainers",
+	"url": "https://call.fa",
+	"tags": ["by-farer", "restricted"]
+}, {
+	"name": "Lemmy",
+	"description": "Link aggregation service",
+	"url": "https://lemmy.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Searx",
+	"description": "Metasearch for all things Farer and public Internet",
+	"url": "https://search.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Lunar Radio",
+	"description": "24/7 music with nearly no repeats.",
+	"url": "https://listentolunar.fa",
+	"tags": ["staff", "restricted"]
+},{
+	"name": "Anki Sync",
+	"description": "Sync Anki flashdecks to Farer instead of AnkiWeb.",
+	"url": "https://anki.fa",
+	"tags": ["staff"]
+},{
+	"name": "Send",
+	"description": "Simple, private file sharing.",
+	"url": "https://send.fa",
+	"tags": ["by-farer"]
+}, {
+	"name": "Vitesses",
+	"description": "Fictious nation state",
+	"url": "https://vitesses.fa",
+	"tags": ["staff"]
+}]

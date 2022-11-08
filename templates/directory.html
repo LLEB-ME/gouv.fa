@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="safe">
+  <h2>Directory</h2>
+
+  <section class="altgrid">
+    {% set data = load_data(path="directory.json") %}
+    {% for item in data %}
+      <a href="{{ item.url }}" class="card click">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <div class="tags">
+        {% for tag in item.tags %}
+          {% if tag == "by-farer" %}
+            <span title="This service is run by The Farer Group." class="tag by-farer">Official service</span>
+          {% elif tag == "staff" %}
+            <span title="This service is run by a staff member from The Farer Group." class="tag staff">Staff-operated</span>
+          {% elif tag == "restricted" %}
+            <span title="This service isn't open to all Farer members, Farer visitors, or is intended for a certain group of people." class="tag restricted">Restricted service</span>
+          {% endif %}
+        {% endfor %}
+        </div>
+      </a>
+    {% endfor %}
+  </section>
+</section>
+{% endblock content %}

@@ -24,52 +24,58 @@
             <path d="M18 30L38 20V25L18 35V30Z" fill="#000"/>
             <path d="M18 45V40L28 35V40L18 45Z" fill="#000"/>
           </svg>
-          <p>{{ trans(key="pubserv", lang=lang) }}</p>
+          <p>the farer group</p>
         </a>
       </div>
       <div class="langs">
-        <a href="/search">{{ trans(key="searchtitle", lang=lang)}}</a> |
-        {% if page.translations %}
-          {% set ctx = page %}
-        {% elif section.translations %}
-          {% set ctx = section %}
+        <a href="/search">{{ trans(key="searchtitle", lang=lang)}}</a>
+        <a href="/directory">{{ trans(key="directorytitle", lang=lang)}}</a>
+
+        {% set_global url = "/" %}
+        {% set_global translation = "" %}
+        {% set_global swap_lang = "" %}
+        {% if lang == "en" %}
+          {% set_global swap_lang = "fr" %}
+          {% set_global url = "/fr" %}
+        {% else %}
+          {% set_global swap_lang = "en" %}
         {% endif %}
-        
-        {% set_global langs = ["en","fr"] %}
-        {% set_global openLangs = [] %}
-        {% for translation in ctx.translations %}
-          {% set_global openLangs = openLangs | concat(with=translation.lang) %}
-          {% set_global openLangs = openLangs | sort %}
-        {%endfor%}
 
-        {% set curlang= trans(key="curlang", lang=lang) %}
-        {% set nolang= trans(key="notrans", lang=lang) %}
-
-        {% for translation in ctx.translations %}
-          {% if translation.lang == lang %}
-            <a href="#" aria-disabled="true" title="{{curlang}}">{{translation.lang}}</a>
-            <!-- Current lang is {{lang}}; no link-->
-          {% elif openLangs is containing(translation.lang) %}
-            <a href="{{translation.permalink}}">{{translation.lang}}</a>
-            <!-- Different lang; linking -->
+        {% if page %}
+          {% set_global translation = page.translations %}
+        {% elif section %}
+          {% set_global translation = section.translations %}
+        {% endif %}
+        <a href="{{ url }}">
+          {% if lang == "en" %}
+          Français
+          {% else %}
+          English
           {% endif %}
-        {% endfor %}
-        {% for translation in langs %}
-          {% if openLangs is not containing(translation) %}
-            <a href="#" aria-disabled="true" title="{{nolang}}">{{translation}}</a>
-            <!-- Couldnt' find translation; no link-->
-          {% endif %}
-        {% endfor %}
+        </a>
       </div>
     </nav>
   </header>
-  <main class="section">
+  <main>
+    {% if lang == "en" %}
+    <div class="notice">
+      <p><strong>Heads up!</strong> We're currently redesigning Gouv.fa. A copy of some old content is still accessible through the Search page. A lot of services in the Directory are not live yet— expect 404s. <a href="/contact">Contact Farer staff if you cannot find something.</a></p>
+    </div>
+    {% else %}
+    <div class="notice">
+      <p><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. Une copie de tous les anciens contenus est toujours accessible via les liens restants sous le nouveau contenu. <a href="/contact">Contactez le personnel de Farer si vous ne trouvez rien.</a></p>
+    </div>
+    {% endif %}
     {% block content %}{% endblock %}
   </main>
   <footer>
-    <a href="#top">{{ trans(key="topofpage", lang=lang) }}</a>
-    <p>&copy; 2022 The Farer Group. <a href="/public/code-licensing">{{ trans(key="copyright", lang=lang) }}</a></p>
-    <a href="https://gouv.fa">Gouv.fa</a> | <a href="https://git.fa">Git.fa</a>
+    <div>
+      <a href="/help">{{ trans(key="help", lang=lang) }}</a>
+      <a href="/meta/contact">{{ trans(key="contact", lang=lang) }}</a>
+      <a href="/meta/design">Farer Design System</a>
+    </div>
+    <p>&copy; 2022-2023 The Farer Group. <a href="/meta/open-source">{{ trans(key="copyright", lang=lang) }}</a></p>
   </footer>
 </body>
+{% block scripts %}{% endblock scripts %}
 </html>

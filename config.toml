@@ -23,9 +23,11 @@ include_content= true
 [languages.en.translations]
 	curlang= "Current locale."
 	notrans= "No translation available."
-	searchtitle= "search"
+	searchtitle= "Search"
+	directorytitle= "Directory"
 	pubserv= "Farer Public Services"
-	topofpage= "Top of page."
+	help= "Help"
+	contact= "Contact"
 	copyright= "Some rights reserved."
 
 [languages.fr]
@@ -33,9 +35,12 @@ include_content= true
 [languages.fr.translations]
 	curlang= "Langue actuel."
 	notrans= "Pas translation."
-	searchtitle= "rechercher"
+	searchtitle= "Rechercher"
+	directorytitle= "Annuaire"
 	pubserv= "Services publiques Farer"
 	topofpage= "Haut de page."
+	help= "Obtenez de l'aide"
+	contact= "Contactez-nous"
 	copyright= "Certains droits réservés."
 
 #[extra]

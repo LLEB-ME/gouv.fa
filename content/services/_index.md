@@ -7,6 +7,5 @@ aliases= ["/N2000"]
 
 ## Getting connected
 - [Accessing Farer services without Tailscale](/N2003)
-- [Installing the Root CA certificate](/N2005)
 - [Making Farer Easier to Access in Browsers](/N2006)
 - [Services and how connections are handled](/N2004)

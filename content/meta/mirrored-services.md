@@ -1,6 +1,5 @@
 +++
-title="Services and how connections are handled"
-aliases=["/N2004"]
+title= "Mirrored services and how they work"
 +++
 
 Some public websites do not behave in the convential method. There are certain cases where this is possible:

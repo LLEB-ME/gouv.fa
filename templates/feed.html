@@ -8,12 +8,12 @@
 </h1>
 
 {% if section.content %}
-<section>
+<section class="safe">
   {{ section.content | safe }}
   <hr/>
 </section>
 {% endif %}
-<section>
+<section class="safe">
   <ul>
   {% set pages = section.pages %}
   {% if paginator.pages %}

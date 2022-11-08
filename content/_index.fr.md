@@ -1,5 +1,5 @@
 +++
 title= "Gouv.fa"
 aliases= ["/fr"]
-layout= "index.fr.html"
+layout= "index.html"
 +++

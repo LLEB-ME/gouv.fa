@@ -1,21 +1,14 @@
 html { @media (prefers-reduced-motion) { animation: none !important; } }
-body {
-  font-family: sans-serif;
+html, body { 
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
   font-size: 1.075rem;
-  @media (prefers-color-scheme: 'dark') {
-    background: #1c1c1c;
-    color: #fff;
-  }
-  max-width: 100ch;
-  margin: 0 auto;
-  padding: 2rem 2rem;
+  line-height: 1.3;
   a {
     color: inherit;
-    transition: 100ms ease-in-out color;
     &:hover,
-    &:focus {
-      color: #ff0000;
-    }
+    &:focus { text-decoration: none; }
   }
 }
 header, main { width: 100%; }
@@ -42,40 +35,6 @@ nav {
     }
   }
 }
-[aria-disabled="true"] {
-  opacity: 0.5;
-}
-footer {
-  border-top: 2px solid;
-  padding-top: 1rem;
-  margin-top: 2rem;
-}
-
-.g {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  @media (min-width: 37em) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    justify-content: center;
-    & > div { margin: 0 .5rem; }
-  }
-  @media (min-width: 60em) {
-    text-align: center;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-.galt {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  & > div:last-child  {
-    &:last-child > h2 { margin-top: 0; }
-  }
-  @media (min-width: 37em) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    & > div { margin: 0 .5rem; }
-    & > div:last-child > h2 { margin-top: .83rem !important; }
-  }
-}
 
 ul {
   li{ margin: .3rem 0;}
@@ -91,4 +50,162 @@ pre {
 #sticky {
   display: none;
   top: 0;
+}
+
+//
+
+//
+
+//
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  padding: 0 1rem;
+  a {
+    text-decoration: none;
+    font-weight: 700;
+  }
+  svg > path { fill: #fff; }
+  @media (min-width: 1000px) { flex-direction: row; }
+}
+[aria-disabled="false"] { opacity: 0.8; }
+
+input[type="search"] {
+  border: 2px solid #000;
+  max-width: 230px;
+  width: 100%;
+  padding: 7px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.control {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.safe {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 3px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  div {
+    a {
+      margin: 0 1rem;
+      &:first-child { margin-left: 0; }
+    }
+  }
+}
+
+.notice {
+  background: #76BFFF;
+  padding: 8px 16px;
+  h2 {
+    margin-top: .5rem;
+    text-align: center;
+  }
+}
+.tag {
+  background: #f7f;
+  padding: 2px 8px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  &.staff { background: #22DD77; }
+  &.by-farer { background: #76BFFF; }
+  &.restricted { background: #FF6554; }
+}
+
+.btn {
+  background: #fff;
+  text-align: center;
+  color: #000;
+  padding: 8px 10px 7px;
+  box-sizing: border-box;
+  box-shadow: 0 4px #000;
+  border: 2px #000 solid;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  font-weight: 800;
+  min-width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover,
+  &:focus {
+    background: #fd0;
+    box-shadow: 0 2px #000000;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-evenly;
+  }
+}
+.altgrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a { text-decoration: none; }
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  border: 2px solid #000;
+  box-shadow: 0 4px #000;
+  padding: 8px 16px;
+  max-width: 80%;
+  width: 100%;
+  margin: 1rem 0;
+  h2, h3 {
+    text-align: center;
+    margin: 8px 0;
+  }
+  .tags {
+    display: flex;
+    flex-direction: column;
+    .tag { margin: .5rem 0; }
+    @media (min-width: 1000px) {
+      flex-direction: row;
+      .tag { margin: 0 .5rem; }
+    }
+  }
+  ul { width: 100%; }
+  @media (min-width: 1000px) { max-width: 300px; }
+  &.r { background: #FF6554; }
+  &.g { background: #22DD77; }
+  &.b { background: #76BFFF; }
+  &.click {
+    &:hover { background: #fd0; }
+  }
 }
