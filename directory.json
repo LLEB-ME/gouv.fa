@@ -7,22 +7,27 @@
 	"name": "Lambda Systems",
 	"description": "Small engineerging research organisation",
 	"url": "https://lambda.ac.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "open"]
 },  {
 	"name": "Mental Mello",
 	"description": "Small mental health research organisation",
 	"url": "https://mello.ac.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "open"]
 }, {
 	"name": "Polytechnic Systems",
 	"description": "Small research engineerging research organisation",
 	"url": "https://polytechnic.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "open"]
 }, {
 	"name": "The Libraries",
 	"description": "Meta search for digital content stored in Farer",
 	"url": "https://lib.fa",
 	"tags": ["by-farer"]
+}, {
+	"name": "Open-Access Library",
+	"description": "Catalogue of open-access research papers and other digital content.",
+	"url": "https://pub.lib.fa",
+	"tags": ["by-farer", "open"]
 }, {
 	"name": "Farer Authentication Services",
 	"description": "Manage applications, scopes, and other data.",
@@ -82,7 +87,7 @@
 	"name": "Searx",
 	"description": "Metasearch for all things Farer and public Internet",
 	"url": "https://search.fa",
-	"tags": ["by-farer"]
+	"tags": ["by-farer", "open"]
 }, {
 	"name": "Lunar Radio",
 	"description": "24/7 music with nearly no repeats.",
@@ -102,5 +107,5 @@
 	"name": "Vitesses",
 	"description": "Fictious nation state",
 	"url": "https://vitesses.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "open"]
 }]
