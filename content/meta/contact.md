@@ -25,10 +25,14 @@ For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [gene
 - US West: CALDERON, Daniel<br/>
   Email: [dan@us-west.farer](mailto:dan@us-west.farer)
 
-### Mailing requests
+### Mailing and fax requests
 Requests and forms that must be sent via post can go to these addresses:
 
+- Farer in San Diego<br/>
+  Fax: `+1 (833) 412-2106`<br/>
+  Accepted requests and forms: `Membership documents`, `General`
 - La Farer en France<br/>
+  `M. Matthew RONCHETTO`<br/>
   `78 allèe Primavera`<br/>
   `Centre UBIDOCA, 19963`<br/>
   `74370 Annecy`<br/>
