@@ -30,6 +30,6 @@ Those who renonce membership may consider:
 
 ---
 
-Those without access must print and fill out the form below. Mailed requests should be sent to the closest mailing address that accepts `Membership documents`. [View mailing addresses &rarr;](/meta/contact)
+Those without access must print and fill out the form below. Mailed requests should be mailed to or faxed to the closest location that accepts `Membership documents`. [View locations &rarr;](/meta/contact)
 
 <a class="btn download" href="https://sec.gouv.fa/forms/renounce-membership.pdf">Download "Renounciation of Farer membership" PDF (0,00 Mo)</a>

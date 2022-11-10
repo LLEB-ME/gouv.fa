@@ -17,6 +17,6 @@ title= "Replacing lost identity documents"
 
 ---
 
-Those without access must print and fill out the form below. Mailed requests should be sent to the closest mailing address that accepts `Membership documents`. [View mailing addresses &rarr;](/meta/contact)
+Those without access must print and fill out the form below. Mailed requests should be mailed to or faxed to the closest location that accepts `Membership documents`. [View locations &rarr;](/meta/contact)
  
 [Download "Replacing lost identity documents" PDF (0,00 Mo)](https://sec.gouv.fa/forms/replace-lost-documents.pdf)
