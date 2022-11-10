@@ -8,7 +8,7 @@ Farer members are given certain documents upon enrolment to:
   - recover lost access to the Farer network; and:
   - access benefits associated with being a Farer member.
 
-Members are given a plastic ID card and a Certificate of Membership. It is expected that members keep these documents and secure as replacements are at the expense of the member, including postage.
+Members are given a plastic ID card and a Certificate of Membership. It is expected that members keep these documents secure as replacements are at the expense of the member, including postage.
 
 ---
 
