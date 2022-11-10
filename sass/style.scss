@@ -71,6 +71,10 @@ nav {
     font-weight: 700;
   }
   svg > path { fill: #fff; }
+  @media print {
+    svg > path { fill: #000; }
+    .langs { display: none; }
+  }
   @media (min-width: 1000px) { flex-direction: row; }
 }
 [aria-disabled="false"] { opacity: 0.8; }
@@ -101,6 +105,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  @media print { display: none; }
   div {
     a {
       margin: 0 1rem;
@@ -122,6 +127,7 @@ footer {
   padding: 2px 8px;
   border-radius: 5px;
   border: 2px solid #000;
+  text-align: center;
   &.staff { background: #22DD77; }
   &.by-farer { background: #76BFFF; }
   &.restricted { background: #FF6554; }
@@ -197,6 +203,9 @@ footer {
     .tag { margin: .5rem 0; }
     @media (min-width: 1000px) {
       flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
       .tag { margin: 0 .5rem; }
     }
   }

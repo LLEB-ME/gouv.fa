@@ -7,7 +7,7 @@
 	"name": "Lambda Systems",
 	"description": "Small engineerging research organisation",
 	"url": "https://lambda.ac.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "verified"]
 },  {
 	"name": "Mental Mello",
 	"description": "Small mental health research organisation",
@@ -87,7 +87,7 @@
 	"name": "Lunar Radio",
 	"description": "24/7 music with nearly no repeats.",
 	"url": "https://listentolunar.fa",
-	"tags": ["staff", "restricted"]
+	"tags": ["staff", "restricted", "verified"]
 },{
 	"name": "Anki Sync",
 	"description": "Sync Anki flashdecks to Farer instead of AnkiWeb.",
@@ -102,5 +102,5 @@
 	"name": "Vitesses",
 	"description": "Fictious nation state",
 	"url": "https://vitesses.fa",
-	"tags": ["staff"]
+	"tags": ["staff", "verified"]
 }]

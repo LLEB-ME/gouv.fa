@@ -17,7 +17,9 @@
           {% elif tag == "staff" %}
             <span title="This service is run by a staff member from The Farer Group." class="tag staff">Staff-operated</span>
           {% elif tag == "restricted" %}
-            <span title="This service isn't open to all Farer members, Farer visitors, or is intended for a certain group of people." class="tag restricted">Restricted service</span>
+            <span title="This service isn't open to all Farer members, Farer visitors, or is intended for a certain group of people." class="tag restricted">Restricted</span>
+          {% elif tag == "verified" %}
+            <span title="This service has been certified to be compliant with Farer policies. A report of such can be found via FarerNIC." class="tag verified">Certified</span>
           {% endif %}
         {% endfor %}
         </div>
