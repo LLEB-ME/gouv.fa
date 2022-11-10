@@ -6,9 +6,19 @@ sort_by= "date"
 paginate_by= 10
 +++
 
-## Types of policy
-- **[Orders—](/fedlex/orders)** created infrequently; similar to executive orders, a quick method to get an initial policy out when needed. Votes can overturn or ammend these orders with ease.
-- **Policies—** created frequently; similar to bills, a simple method for members to vote and put forth policies to change how Farer works. Votes at a majority are needed to pass.
-- **Request—** created infrequently; similar to executive orders, a quick method to call a vote on an important policy or order. Votes at a majority are needed to pass.
+The Fedlex, or Federal Lexicon, is an archive of all policies set in place to regulate The Farer Group, the Farer network, the people who can access the network, and everything in between. Policies are set to make sane restrictions, while allowing an essentially "zero-rule" Internet.
 
-**[Be an informed voter&rarr;](/voting)**
+### How are policies made
+Policies are made by either:
+  - **staff members—** a policy may be written, assuming it complies with past policies dictating how policies must be written, by any staff member and proposed to be brought into action
+  - **members—** any member can propose a policy to be brought to a majority vote at any time.
+
+### How are policies brought into action
+Policies can be brought into action in one of two ways:
+  - **by majority vote—** a vote is requested by the members of Farer with a deadline of two weeks. After two weeks, whether or not the majority votes to enact that policy decides if it is enacted. Farer staff members can recall votes as many times as seen fit, assuming changes to the policy are made to enable a majority vote.
+  - **by mandation—** in rare cases, Farer staff members may enact in a majority rule of the staff body policies. Farer members can organise a vote to repeal the policy— [this is a right of theirs.](/fedlex/2022-001)
+
+### Why there is some bureacracy
+The Farer Group has the duty of ensuring that members rights are not infringed and that their obligations are met. This "red tape" is meant to allow accountability if and when "foul play" occurs.
+
+<a href="/voting" class="btn">Be an informed voter.</a>
