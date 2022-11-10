@@ -1,6 +1,5 @@
 +++
 title= "Chat roles"
-aliases= ["/N4007"]
 date="2022-09-18T21:00:00Z"
 +++
 
