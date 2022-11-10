@@ -107,10 +107,5 @@
 	"name": "Vitesses",
 	"description": "Fictious nation state",
 	"url": "https://vitesses.fa",
-<<<<<<< HEAD
-	"tags": ["staff", "verified"]
+	"tags": ["staff", "verified", "open"]
 }]
-=======
-	"tags": ["staff", "open"]
-}]
->>>>>>> 70fb0496b369ddc3f6231d9bd585acbfd6d478f2
