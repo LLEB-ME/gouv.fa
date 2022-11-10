@@ -1,7 +1,19 @@
 +++
-title= "Deprecated software and projects"
+title= "Licensing and Usage of Open-source"
 +++
 
+Code developed by The Farer Group is licensed under [the 3-Clause BSD license](https://lib.fa/licenses/BSD-3-Clause) or [GPL v3.0](https://lib.fa/licenses/GPL-3.0). Page contents are licensed under the [Creative Commons 4.0 Attribution license.](https://lib.fa/licenses/CC-BY-4.0)
+
+### Current open-source software
+This list is not exhaustive. [You can request an exhaustive list.](/meta/contact)
+
+- [Alpine Linux](https://gitlab.alpinelinux.org/alpine)
+- [Ansible](https://github.com/ansible/ansible)
+- [Caddy](https://github.com/caddyserver/caddy)
+- [CoreDNS](https://github.com/coredns/coredns)
+- [Rocky Linux](https://git.rockylinux.org/explore)
+- [Tailscale](https://github.com/tailscale/tailscale)
+- [Zola](https://github.com/getzola/zola)
 
 ### Deprecated software and projects
 This is a collection of software that we have used in the past or have developed in-house for usage within Farer, but have either deprecated or stop utilising.
