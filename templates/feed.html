@@ -19,7 +19,7 @@
   {% if paginator.pages %}
     {% set pages = paginator.pages %}
   {% endif %}
-  {% set pageorder = pages | sort(attribute="date") %}
+  {% set pageorder = pages | sort(attribute="title") %}
   {% for post in pageorder | reverse %}
     <li><a href="{{post.permalink | safe}}">{{post.title}}</a> ({{post.date}})</li>
   {% endfor %}
