@@ -7,56 +7,9 @@ html, body {
   line-height: 1.3;
   a {
     color: inherit;
-    &:hover,
-    &:focus { text-decoration: none; }
+    &:hover, &:focus { text-decoration: none; }
   }
 }
-header, main { width: 100%; }
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  .langs {
-    display: flex;
-    align-items: center;
-    a { margin: .5rem; }
-  }
-  .home > a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    svg > path { @media (prefers-color-scheme: 'dark') { fill: #fff; } }
-    p {
-      margin-left: 0 0 0 .5rem;
-      font-weight: 700;
-      font-size: 1.5rem;
-    }
-  }
-}
-
-ul {
-  li{ margin: .3rem 0;}
-  li:first-child { margin-top: 0; }
-  li:last-child { margin-bottom: 0; }
-}
-pre {
-  overflow-x: auto;
-  background: #3d3d3d;
-  color: #fff;
-  padding: .5rem .5rem;
-}
-#sticky {
-  display: none;
-  top: 0;
-}
-
-//
-
-//
-
-//
 
 nav {
   display: flex;
@@ -69,8 +22,19 @@ nav {
   a {
     text-decoration: none;
     font-weight: 700;
+    margin: .5rem;
+  }
+  .home > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
   }
   svg > path { fill: #fff; }
+  .langs { display: flex; }
   @media print {
     svg > path { fill: #000; }
     .langs { display: none; }
@@ -79,9 +43,17 @@ nav {
 }
 [aria-disabled="false"] { opacity: 0.8; }
 
+//
+
+header, main { width: 100%; }
+ul {
+  li { margin: .3rem 0; }
+  li:first-child { margin-top: 0; }
+  li:last-child { margin-bottom: 0; }
+}
 input[type="search"] {
   border: 2px solid #000;
-  max-width: 230px;
+  //max-width: 230px;
   width: 100%;
   padding: 7px 20px;
   font-weight: 700;
@@ -93,26 +65,31 @@ input[type="search"] {
   gap: 2rem;
   margin-bottom: 2rem;
 }
-
 .safe {
   max-width: 80%;
   margin: 0 auto;
 }
+
+//
 
 footer {
   border-top: 3px solid #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 80%;
+  padding-top: 1rem;
   margin: 0 auto;
   @media print { display: none; }
-  div {
-    a {
-      margin: 0 1rem;
-      &:first-child { margin-left: 0; }
-    }
+  div > a {
+    margin: 0 .5rem;
+    &:first-child { margin-left: 0; }
   }
+  div > a,
+  a { font-weight: 800; }
 }
+
+//
 
 .notice {
   background: #76BFFF;
@@ -131,6 +108,7 @@ footer {
   &.staff { background: #22DD77; }
   &.by-farer { background: #76BFFF; }
   &.restricted { background: #FF6554; }
+  &.verified { background: #ffce70; }
 }
 
 .btn {
