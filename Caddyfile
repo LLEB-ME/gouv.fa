@@ -1,30 +1,39 @@
 gouv.fa {
 	encode zstd gzip
-	file_server
-	root * /srv/sites/pubserv.fa/public
+	file_server {
+		precompressed br
+	}
+	root * /srv/sites/gouv.fa/public
 	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
 }
 http://gouv.fa {
 	encode zstd gzip
-	file_server
-	root * /srv/sites/pubserv.fa/public
+	file_server {
+		precompressed br
+	}
+	root * /srv/sites/gouv.fa/public
 }
-
-www.gouv.fa,
-gov.fa,
-www.gov.fa {
+www.gouv.fa {
 	encode zstd gzip
-	redir https://gouv.fa/{uri}
+	redir https://gouv.fa{uri}
+	tls /srv/certs/gouv.fa/public.pem /srv/certs/gouv.fa/private.pem
 }
 http://farer.,
 http://fa.,
-http://example.fa {
+http://example.fa,
+http://www.gouv.fa {
 	encode zstd gzip
-	redir http://gouv.fa/{uri}
+	redir http://gouv.fa{uri}
 }
 
-#wiki.farer.group {
-#	encode zstd gzip
-#	file_server
-#	root * /srv/sites/farerwiki/public
-#}
+farer.group {
+	encode zstd gzip
+	file_server {
+		precompressed br
+	}
+	root * /srv/sites/farer.group/public
+}
+www.farer.group {
+	encode zstd gzip
+	redir https://farer.group{uri}
+}
