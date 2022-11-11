@@ -19,7 +19,7 @@ Pour toute autre préoccupation, envoyez un courriel à [general@gouv.fa](mailto
   Email: [april@gouv.fa](mailto:april@gouv.fa)<br/>
   Email: [amerrill@farer.group](mailto:amerrill@farer.group)
 - Est des États-Unis: MERRILL, Jack<br/>
-  Email: [jack@gouv.fa](mailto:jack@gouv.fa)
+  Email: [jack@gouv.fa](mailto:jack@gouv.fa)<br/>
   Email: [jmerrill@farer.group](mailto:jmerrill@farer.group)
 - Ouest des États-Unis: CALDERON, Daniel<br/>
   Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
