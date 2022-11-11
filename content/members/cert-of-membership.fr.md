@@ -8,7 +8,7 @@ Les certificat d'adhésion sont imprimées à l'interne en français et en angla
   - le numéro de la certificat (AA000000); et :
   - le numéro de la carte (AA000000).
 
-Certains certificats peuvent être rédigés en français, en anglais et en espagnol. Cela est dû à des exigences langauge antérieures alors que Farer était connu sous le nom de LLEB Intranet. Les certificats sont estampillés ou signés par une autorité émettrice et envoyés numériquement ou par la poste, selon la façon dont la demande est faite.
+Certains certificats peuvent être rédigés en français, en anglais et en espagnol. Cela est dû à des exigences langue antérieures alors que Farer était connu sous le nom de LLEB Intranet. Les certificats sont estampillés ou signés par une autorité émettrice et envoyés numériquement ou par la poste, selon la façon dont la demande est faite.
 
 ## Documents nécessaires
 - **Preuve d’adhésion à Farer—** Il peut s’agir d’un [certificat d’adhésion](/fr/members/cert-of-membership), d’une ancienne carte d’identité ou d’un autre moyen de prouver l’adhésion.
@@ -19,7 +19,7 @@ Après une demande soumise, il peut s’écouler jusqu’à une semaine avant qu
 
 ---
 
-**This operations requires access to your Farer account.**
+**Cette opération nécessite l’accès à votre compte Farer.**
 
 [Accéder au formulaire "Demande de certificat d’adhésion"](https://sec.gouv.fa/forms/com-application?lang=fr)
 

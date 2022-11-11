@@ -8,10 +8,10 @@ Certificates of membership are printed in-house in both French and English. They
   - the certificate's number (AA000000); and:
   - the bearer's ID number (AA000000).
 
-Some certificates may be written in French, English, and Spanish. This is because of prior langauge requirements while Farer was known as the LLEB Intranet. Certificates are stamped or signed by an issuing authority and sent digitally or via post, depending on how the request is made.
+Some certificates may be written in French, English, and Spanish. This is because of prior language requirements while Farer was known as the LLEB Intranet. Certificates are stamped or signed by an issuing authority and sent digitally or via post, depending on how the request is made.
 
 ## Documents you will need
-- **Proof of Farer membership—** this can be a certificate of membership, [an old ID card](/members/id-card), or other means to proving membership.
+- **Proof of Farer membership—** this can be a certificate of membership, [an old ID card](/members/id-card), or other means to prove membership.
 - **A mailing address, if mailing is selected—** this can be anywhere in the world that can accept mail from the following countries: France, United States
 
 ## Notes
@@ -19,7 +19,7 @@ After a submitted request, it can take up to a week to get a request approved an
 
 ---
 
-**This operations requires access to your Farer account.**
+**This operation requires access to your Farer account.**
 
 [Access the form "Request for a Certificate of Membership"](https://sec.gouv.fa/forms/com-application)
 

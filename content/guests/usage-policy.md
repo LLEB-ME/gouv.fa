@@ -7,4 +7,4 @@ Visitors are held to certain obligations while using the Farer network:
   - **Treat community services like your own—** do not flood traffic to any servers, attempt to circumvent <abbr title="Access-Control Lists">ACLs</abbr>, or abuse the data you may have access to. 
   - **Don't be a dick.**
 
-Visitors are visitors and are not required to be given access to the Farer network— only members are guaranteed access. Visitors can have their access revoked at anytime for any reason at staff discretion by whatever mean's are viable without infringing on their [privacy rights.](/guests/privacy)
+Visitors are visitors and are not required to be given access to the Farer network— only members are guaranteed access. Visitors can have their access revoked at any time for any reason at staff discretion by whatever means are viable without infringing on their [privacy rights.](/guests/privacy)

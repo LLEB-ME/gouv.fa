@@ -17,7 +17,7 @@ Certaines mesures de sécurité sont en place, comme la signature du contenu de 
 
 ---
 
-**This operations requires access to your Farer account.**
+**Cette opération nécessite l’accès à votre compte Farer.**
 
 [Accéder au formulaire "Demande de carte d'identité"](https://sec.gouv.fa/forms/id-application?lang=fr)
 

@@ -8,5 +8,5 @@ Connecting via Farer requires [a GitHub account](https://github.com) and the man
 
 1. Sign up [for GitHub](https://github.com) and [contact your regional staff member](/meta/contact) to be added to the organisation.
 2. Download [Tailscale](https://tailscale.com/download)— there are no official download mirrors hosted by Tailscale or Farer within Farer.
-3. Login to Tailscale using your GitHub account. When prompted to choose a network, select `LLEB-ME`, `FARERGROUP` or `the farer group`
+3. Log in to Tailscale using your GitHub account. When prompted to choose a network, select `LLEB-ME`, `FARERGROUP` or `the farer group`
 4. Ensure that "Use Tailscale DNS settings" is enabled by clicking on the Tailscale icon in your taskbar and looking under "Preferences". This setting will be used by default on mobile and does not require confirming.
