@@ -1,16 +1,9 @@
-# wiki
-
+## Building and Deploying
 0. Install [Zola](https://getzola.org)
-1. Make changes on a new branch unless minor
-2. Use `zola serve` to make sure it actually works
-3. Use `zola build` to make sure it actually works works
-4. Make a PR with those changes
-5. ???
-6. Profit.
+1. Build the site (`zola build`) or serve changes locally (`zola serve`)
+2. Push to Git.
+  - Pushing to GitHub is being deprecated in favour of Git.fa
+  - Pushing to Git.fa will require a pull request to make changes. The `main` branch will automatically build and serve any changes to the website, both [internally](https://gouv.fa) and [publicly.](https://farer.group)
 
-### for staff
-0. normal setup
-1. [setup a git remote for 
-`git@maatt.fr:farer/gouv.fa.git`](https://www.maatt.ch/blog/aws-to-1984/#git-hooks-the-secret-sauce-to-having-a-sane-deploy)
-2. push to `prod` when ready for production. push to `origin` or `gh` when not.
-   - If you push to prod, read the console output. It will tell you if the build fails or not.
+## Acknowledgements
+This codebase is not open-source, but public source. The page content's are licensed under the CC-BY-4.0 license.
