@@ -18,7 +18,7 @@ I affirm and attest that the person being invited will follow the [terms of memb
 1. **Collect general information and proofread—** recommendations should be written with good grammer in an official language and fit the guidelines to a tee.
 2. **[Submit the recommendation via GitHub](https://github.com/lleb-me/wiki/issues/new).**
 
-Recommendations will then be triaged and handled within one week. If it takes longer than one week, you should [contact a staff member directly.](@/public/contact.md)
+Recommendations will then be triaged and handled within one week. If it takes longer than one week, you should [contact a staff member directly.](/meta/contact.md)
 
 ## Revoking your recommendation
 In special instances, you may revoke your recommendation when you become aware that someone you invited may plan sabotage or intends to void their obligations. You may submit an attempt to revoke your recommendation, provided valid evidence, by contacting a staff member.
