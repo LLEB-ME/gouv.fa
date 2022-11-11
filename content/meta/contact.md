@@ -15,14 +15,18 @@ For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [gene
   Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
 
 ### Region staff contacts
-- Europe: RONCHETTO, Matthew<br/>
-  Email: [matt@europe.farer](mailto:matt@europe.farer)
-- US Central: MERRILL, April<br/>
-  Email: [april@us-central.farer](mailto:april@us-central.farer)
-- US East: MERRILL, Jack<br/>
-  Email: [jack@us-east.farer](mailto:jack@us-east.farer)
-- US West: CALDERON, Daniel<br/>
-  Email: [dan@us-west.farer](mailto:dan@us-west.farer)
+- [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa)<br/>
+  Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
+- [US Central](https://us-central.farer): MERRILL, April<br/>
+  Email: [april@gouv.fa](mailto:april@gouv.fa)<br/>
+  Email: [amerrill@farer.group](mailto:amerrill@farer.group)
+- [US East:](https://us-east.farer) MERRILL, Jack<br/>
+  Email: [jack@gouv.fa](mailto:jack@gouv.fa)
+  Email: [jmerrill@farer.group](mailto:jmerrill@farer.group)
+- [US West:](https://us-west.farer) CALDERON, Daniel<br/>
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
+  Email: [dcalderon@farer.group](mailto:dcalderon@farer.group)
 
 ### Mailing and fax requests
 Requests and forms that must be sent via post can go to these addresses:
