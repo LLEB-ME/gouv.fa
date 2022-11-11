@@ -18,13 +18,13 @@ For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [gene
 - [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
   Email: [matt@gouv.fa](mailto:matt@gouv.fa)<br/>
   Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
-- [US Central](https://us-central.farer): MERRILL, April<br/>
+- US Central: MERRILL, April<br/>
   Email: [april@gouv.fa](mailto:april@gouv.fa)<br/>
   Email: [amerrill@farer.group](mailto:amerrill@farer.group)
-- [US East:](https://us-east.farer) MERRILL, Jack<br/>
+- US East: MERRILL, Jack<br/>
   Email: [jack@gouv.fa](mailto:jack@gouv.fa)
   Email: [jmerrill@farer.group](mailto:jmerrill@farer.group)
-- [US West:](https://us-west.farer) CALDERON, Daniel<br/>
+- US West: CALDERON, Daniel<br/>
   Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
   Email: [dcalderon@farer.group](mailto:dcalderon@farer.group)
 
@@ -34,7 +34,7 @@ Requests and forms that must be sent via post can go to these addresses:
 - Farer in San Diego<br/>
   Fax: `+1 (833) 412-2106`<br/>
   Accepted requests and forms: `Membership documents`, `General`
-- La Farer en France<br/>
+- [La Farer en France](https://france.europe.farer)<br/>
   `M. Matthew RONCHETTO`<br/>
   `78 allèe Primavera`<br/>
   `Centre UBIDOCA, 19963`<br/>

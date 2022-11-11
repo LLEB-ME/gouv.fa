@@ -15,14 +15,18 @@ Pour toute autre préoccupation, envoyez un courriel à [general@gouv.fa](mailto
   Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
 
 ### Membres-ressources du personnel de la région
-- Europe: RONCHETTO, Matthew<br/>
-  Email: [matt@europe.farer](mailto:matt@europe.farer)
 - Centre des États-Unis: MERRILL, April<br/>
-  Email: [april@us-central.farer](mailto:april@us-central.farer)
+  Email: [april@gouv.fa](mailto:april@gouv.fa)<br/>
+  Email: [amerrill@farer.group](mailto:amerrill@farer.group)
 - Est des États-Unis: MERRILL, Jack<br/>
-  Email: [jack@us-east.farer](mailto:jack@us-east.farer)
+  Email: [jack@gouv.fa](mailto:jack@gouv.fa)
+  Email: [jmerrill@farer.group](mailto:jmerrill@farer.group)
 - Ouest des États-Unis: CALDERON, Daniel<br/>
-  Email: [dan@us-west.farer](mailto:dan@us-west.farer)
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
+  Email: [dcalderon@farer.group](mailto:dcalderon@farer.group)
+- [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa)<br/>
+  Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
 
 ### Demandes d'envoir par la poste et par télécopieur
 Les demandes et formulaires qui doivent être envoyés par la poste peuvent aller à ces adresses :
@@ -30,7 +34,7 @@ Les demandes et formulaires qui doivent être envoyés par la poste peuvent alle
 - Farer in San Diego<br/>
   Télécopieur: `+1 (833) 412-2106`<br/>
   Demandes et formulaires acceptés: `Membership documents`, `General`
-- La Farer en France<br/>
+- [La Farer en France](https://france.europe.farer)<br/>
   `M. Matthew RONCHETTO`<br/>
   `78 allèe Primavera`<br/>
   `Centre UBIDOCA, 19963`<br/>
