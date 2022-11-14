@@ -1,5 +1,6 @@
 +++
 title= "Internal Voting"
+draft= true
 +++
 
 We're not a government: so, we have a lot of flexibility to how we handle things such as policies, services, incidents, et al. We generally use a direct democracy to vote on procedures in this (`farer-group/wiki`) GitHub repository.
