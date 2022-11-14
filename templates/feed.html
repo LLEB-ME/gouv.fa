@@ -3,16 +3,13 @@
 {% set section = get_section(path=path) %}
 
 {% block content %}
-<h1 class="title">
-  {{section.title}}
-</h1>
-
-{% if section.content %}
 <section class="safe">
-  {{ section.content | safe }}
-  <hr/>
+  <h1 class="title">
+    {{section.title}}
+  </h1>
+  {% if section.content %}{{ section.content | safe }}
+  <hr/>{% endif %}
 </section>
-{% endif %}
 <section class="safe">
   <ul>
   {% set pages = section.pages %}
