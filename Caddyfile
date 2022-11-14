@@ -21,7 +21,9 @@ www.gouv.fa {
 http://farer.,
 http://fa.,
 http://example.fa,
-http://www.gouv.fa {
+http://www.gouv.fa,
+http://www.farer.,
+http://www.fa {
 	encode zstd gzip
 	redir http://gouv.fa{uri}
 }
