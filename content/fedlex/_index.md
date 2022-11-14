@@ -15,7 +15,7 @@ Policies are made by either:
 
 ### How are policies brought into action
 Policies can be brought into action in one of two ways:
-  - **by amajority vote of people—** a vote is requested by the members of Farer with a deadline of two weeks. After two weeks, whether or not the majority votes to enact that policy decides if it is enacted. Farer staff members can recall votes as many times as seen fit, assuming changes to the policy are made to enable a majority vote.
+  - **by a majority vote of people—** a vote is requested by the members of Farer with a deadline of two weeks. After two weeks, whether or not the majority votes to enact that policy decides if it is enacted. Farer staff members can recall votes as many times as seen fit, assuming changes to the policy are made to enable a majority vote.
   - **by a majority vote of staff—** in some cases, Farer staff members may enact a policy using the majority rule of the staff body. Farer members can organise a vote to repeal the policy— [this is a right of theirs.](/fedlex/2022-001)
 
 ### Why there is some bureaucracy
