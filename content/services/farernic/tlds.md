@@ -2,6 +2,18 @@
 title= "Domains offered by FarerNIC"
 +++
 
+### .FA domains
+.FA domains are open for registration to all Farer members. Registration is done [via the FarerNIC](https://nic.fa/register-domain). Certificates are generated automatically and given to you for usage with your domain. HTTPS is enforced on .FA domains, bar those that cannot be logically enforced; exceptions are seldom and made verifiable via FarerNIC's website.
+
+#### .FA subdomains
+Certain subdomains are owned and maintained by The Farer Group. They are open for registration but restricted for certain usage based on the domain.
+  - `gouv.fa`— reserved for The Farer Group and its organisations
+  - `intl.fa`— reserved for international governments and their organisations that have servers inside Farer
+  - `edu.fa`— reserved for educational entities
+  - `ac.fa`— reserved for academic research entities
+  - `lib.fa`— reserved for archival and library services that have servers or provide services inside Farer
+
+
 ### .FARER domains
 .FARER domains are open for registration but restricted for certain usage:
   - The Farer Group and its organisations,
@@ -17,16 +29,9 @@ Public IPv6 (if applicable): ::fa0
 Reason for registration: Lorem ipsum
 ```
 
-### .FA domains
-.FA domains are open for registration to all Farer members. Registration is done [via the FarerNIC](https://nic.fa/register-domain). Certificates are generated automatically and given to you for usage with your domain. HTTPS is enforced on .FA domains, bar those that cannot be logically enforced; exceptions are seldom and made verifiable via FarerNIC's website.
+#### .FARER subdomains
+Certain subdomains are reserved by The Farer Group but unused, including: `gouv.farer`, `intl.farer`, `edu.farer`, `ac.farer`, `lib.farer`, and `mil.farer`.
 
-### .FA subdomains
-Certain subdomains are owned and maintained by The Farer Group. They are open for registration but restricted for certain usage based on the domain.
-  - `gouv.fa`— reserved for The Farer Group and its organisations
-  - `intl.fa`— reserved for international governments and their organisations that have servers inside Farer
-  - `edu.fa`— reserved for educational entities
-  - `ac.fa`— reserved for academic research entities
-  - `lib.fa`— reserved for archival and library services that have servers or provide services inside Farer
 
 ### Domain name policy
 Domain names are public to anyone connected to the Farer network and cannot be made private. Just like the normal Internet, however, users must find your domain by some means to be able to know about it.

@@ -12,7 +12,7 @@ Certains certificats peuvent être rédigés en français, en anglais et en espa
 
 ## Documents nécessaires
 - **Preuve d’adhésion à Farer—** Il peut s’agir d’un [certificat d’adhésion](/fr/members/cert-of-membership), d’une ancienne carte d’identité ou d’un autre moyen de prouver l’adhésion.
-- **Une adresses postale, si l'envoi est demandé—** peut être n’importe où dans le monde qui peut accepter du courrier des pays suivants : France, États-Unis
+- **Une adresses postale, si l'envoi est demandé—** peut être n’importe où dans le monde qui peut accepter du courrier des pays suivants: France, États-Unis
 
 ## Notes
 Après une demande soumise, il peut s’écouler jusqu’à une semaine avant qu’une demande soit approuvée et que les documents soient retournés. Si cela prend plus d’une semaine, vous devriez [communiquer directement avec le personnel de votre région.](/fr/meta/contact)

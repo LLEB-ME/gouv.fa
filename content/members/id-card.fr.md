@@ -13,7 +13,7 @@ Certaines mesures de sécurité sont en place, comme la signature du contenu de 
 
 ## Documents nécessaires
 - **Preuve d’adhésion à Farer—** Il peut s’agir d’un [certificat d’adhésion](/fr/members/cert-of-membership), d’une ancienne carte d’identité ou d’un autre moyen de prouver l’adhésion.
-- **Une adresses postale—** peut être n’importe où dans le monde qui peut accepter du courrier des pays suivants : France, États-Unis
+- **Une adresses postale—** peut être n’importe où dans le monde qui peut accepter du courrier des pays suivants: France, États-Unis
 
 ---
 
