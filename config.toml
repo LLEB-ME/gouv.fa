@@ -23,25 +23,46 @@ include_content= true
 [languages.en.translations]
 	curlang= "Current locale."
 	notrans= "No translation available."
+
 	searchtitle= "Search"
+	searchlabel= "Search pages"
 	directorytitle= "Directory"
-	pubserv= "Farer Public Services"
+
 	help= "Help"
 	contact= "Contact"
 	copyright= "Some rights reserved."
+
+	tag_farer= "Official service"
+	tag_farer_desc= "This service is run by The Farer Group."
+	tag_staff= "Staff-operated"
+	tag_staff_desc= "This service is run by a staff member from The Farer Group."
+	tag_restricted= "Restricted"
+	tag_restricted_desc= "This service isn't open to all Farer members, Farer visitors, or is intended for a certain group of people."
+	tag_certified= "Certified"
+	tag_certified_desc= "This service has been certified to be compliant with Farer policies. A report of such can be found via FarerNIC."
 
 [languages.fr]
 	build_search_index= true
 [languages.fr.translations]
 	curlang= "Langue actuel."
 	notrans= "Pas translation."
+
 	searchtitle= "Rechercher"
+	searchlabel= "Rechercher les pages"
 	directorytitle= "Annuaire"
-	pubserv= "Services publiques Farer"
-	topofpage= "Haut de page."
+
 	help= "Obtenez de l'aide"
 	contact= "Contactez-nous"
 	copyright= "Certains droits réservés."
+
+	tag_farer= "Service officiel"
+	tag_farer_desc= "Ce service est assuré par The Farer Group."
+	tag_staff= "Géré par le personnel Farer"
+	tag_staff_desc= "Ce service est géré par un membre du personnel de The Farer Group."
+	tag_restricted= "Accès limité"
+	tag_restricted_desc= "Ce service n’est pas disponible pour tous les membres de Farer, les visiteurs de Farer, ou est destiné à un certain groupe de personnes."
+	tag_certified= "Certifié"
+	tag_certified_desc= "Ce service a été certifié conforme aux politiques Farer. Un rapport à ce sujet peut être trouvé via FarerNIC."
 
 #[extra]
 #unofficial= []
