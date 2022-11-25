@@ -66,22 +66,22 @@
       </div>
     </nav>
   </header>
+  {% if lang == "en" %}
+  <div class="notice">
+    <p><strong>Heads up!</strong> We're currently redesigning Gouv.fa. A copy of some old content is still accessible through the Search page. A lot of services in the Directory are not live yet— expect 404s. <a href="/meta/contact">Contact Farer staff if you cannot find something.</a></p>
+  </div>
+  <!--<div class="notice">
+    <p><strong>There is an active vote on policy in progress.</strong> Voting will close 1 january 1997. <a href="/vote">Click here for more information on voting.</a></p>
+  </div>-->
+  {% else %}
+  <div class="notice">
+    <p><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. Une copie de tous les anciens contenus est toujours accessible via les liens restants sous le nouveau contenu. <a href="/fr/meta/contact">Contactez le personnel de Farer si vous ne trouvez rien.</a></p>
+  </div>
+  <!--<div class="notice">
+    <p><strong>Il y a un vote actif sur la politique en cours.</strong> Le vote se terminera le 1 january 1997. <a href="/fr/vote">Cliquez ici pour plus d'informations sur le vote.</a></p>
+  </div>-->
+  {% endif %}
   <main>
-    {% if lang == "en" %}
-    <div class="notice">
-      <p><strong>Heads up!</strong> We're currently redesigning Gouv.fa. A copy of some old content is still accessible through the Search page. A lot of services in the Directory are not live yet— expect 404s. <a href="/meta/contact">Contact Farer staff if you cannot find something.</a></p>
-    </div>
-    <!--<div class="notice">
-      <p><strong>There is an active vote on policy in progress.</strong> Voting will close 1 january 1997. <a href="/vote">Click here for more information on voting.</a></p>
-    </div>-->
-    {% else %}
-    <div class="notice">
-      <p><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. Une copie de tous les anciens contenus est toujours accessible via les liens restants sous le nouveau contenu. <a href="/fr/meta/contact">Contactez le personnel de Farer si vous ne trouvez rien.</a></p>
-    </div>
-    <!--<div class="notice">
-      <p><strong>Il y a un vote actif sur la politique en cours.</strong> Le vote se terminera le 1 january 1997. <a href="/fr/vote">Cliquez ici pour plus d'informations sur le vote.</a></p>
-    </div>-->
-    {% endif %}
     {% block content %}{% endblock %}
   </main>
   <footer>
