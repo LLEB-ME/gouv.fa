@@ -5,7 +5,7 @@ title= "Licences et utilisation de sources ouvertes"
 Le code développé par The Farer Group est sous licence [the 3-Clause BSD license](https://pub.lib.fa/licenses/BSD-3-Clause) ou [GPL v3.0](https://pub.lib.fa/licenses/GPL-3.0). Le contenu des pages est sous licence [Creative Commons 4.0 Attribution license. ](https://pub.lib.fa/licenses/CC-BY-4.0)
 
 ### Current open-source software
-Cette liste n’est pas exhaustive. [Vous pouvez demander une liste exhaustive.](/meta/contact)
+Cette liste n’est pas exhaustive. [Vous pouvez demander une liste exhaustive.](/fr/meta/contact)
 
 - [Alpine Linux](https://gitlab.alpinelinux.org/alpine)
 - [Ansible](https://github.com/ansible/ansible)

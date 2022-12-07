@@ -16,7 +16,7 @@ Les politiques sont établies par :
 ### Comment est-ce que mise en œuvre des politiques?
 Les politiques peuvent être mises en œuvre de deux façons:
   - **par vote majoritaire des membres—** un vote est demandé par les membres de Farer avec un délai de deux semaines. Après deux semaines, c’est la majorité qui décide si la politique est adoptée ou non. Les membres du personnel de Farer peuvent se souvenir des votes autant de fois qu’ils le jugent bon, en supposant que des changements soient apportés à la politique pour permettre un vote majoritaire.
-  - **par vote majoritaire des membres du personnel—** dans certains cas, les membres du personnel de Farer peuvent adopter une politique en utilisant la règle de la majorité de l’organe du personnel. Les membres de Farer peuvent organiser un vote pour abroger la politique— [c’est leur droit.](/fedlex/2022-001)
+  - **par vote majoritaire des membres du personnel—** dans certains cas, les membres du personnel de Farer peuvent adopter une politique en utilisant la règle de la majorité de l’organe du personnel. Les membres de Farer peuvent organiser un vote pour abroger la politique— [c’est leur droit.](/fr/fedlex/2022-001)
 
 ### Pourquoi il y a une certaine bureaucratie?
 Le groupe Farer a le devoir de veiller à ce que les droits des membres ne soient pas violés et que leurs obligations soient respectées. Cette "paperasserie" vise à permettre la reddition de comptes en cas de "délit".
