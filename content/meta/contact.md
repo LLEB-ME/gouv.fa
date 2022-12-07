@@ -2,42 +2,37 @@
 title= "Contact"
 +++
 
-For security concerns, email [security@gouv.fa](mailto:security@gouv.fa) or [security AT farer.group](mailto:security@farer.group).<br/>
-For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [general AT farer.group](mailto:general@farer.group).
+**In the event of an emergency, dial 911, 999, or 112.**<br/>
+**En cas d'urgence, appeler à 911, 999, ou 112.**
+
+For security concerns, email [security@gouv.fa](mailto:security@gouv.fa) or [security AROBASE farer.group](mailto:security@farer.group).<br/>
+For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [general AROBASE farer.group](mailto:general@farer.group).
 
 
 ### Staff member contacts
 - CALDERON, Daniel<br/>
-  Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
-  Email: [dcalderon@farer.group](mailto:dcalderon@farer.group)
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
+- MERRILL, Jack<br/>
+  Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill AROBASE farer.group](mailto:jmerrill@farer.group)
 - RONCHETTO, Matthew<br/>
-  Email: [matt@gouv.fa](mailto:matt@gouv.fa)<br/>
-  Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
 
 ### Region staff contacts
 - [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
-  Email: [matt@gouv.fa](mailto:matt@gouv.fa)<br/>
-  Email: [mronchetto@farer.group](mailto:mronchetto@farer.group)
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
+  - [La Farer en France](https://france.europe.farer)
 - US Central: MERRILL, April<br/>
-  Email: [april@gouv.fa](mailto:april@gouv.fa)<br/>
-  Email: [amerrill@farer.group](mailto:amerrill@farer.group)
+  Email: [april@gouv.fa](mailto:april@gouv.fa) / [amerrill AROBASE farer.group](mailto:amerrill@farer.group)
 - US East: MERRILL, Jack<br/>
-  Email: [jack@gouv.fa](mailto:jack@gouv.fa)<br/>
-  Email: [jmerrill@farer.group](mailto:jmerrill@farer.group)
-- US West: CALDERON, Daniel<br/>
-  Email: [dan@gouv.fa](mailto:dan@gouv.fa)<br/>
-  Email: [dcalderon@farer.group](mailto:dcalderon@farer.group)
+  Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill AROBASE farer.group](mailto:jmerrill@farer.group)
+- [US West](https://united-states.farer/west): CALDERON, Daniel<br/>
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
+  - [Farer in San Diego](https://ksan.united-states.farer)
 
 ### Mailing and fax requests
 Requests and forms that must be sent via post can go to these addresses:
 
-- Farer in San Diego<br/>
-  Fax: `+1 (833) 412-2106`<br/>
+- [Farer in San Diego](https://ksan.united-states.farer)<br/>
   Accepted requests and forms: `Membership documents`, `General`
 - [La Farer en France](https://france.europe.farer)<br/>
-  `M. Matthew RONCHETTO`<br/>
-  `78 allèe Primavera`<br/>
-  `Centre UBIDOCA, 19963`<br/>
-  `74370 Annecy`<br/>
-  `France`<br/>
   Accepted requests and forms: `Membership documents`, `General`
