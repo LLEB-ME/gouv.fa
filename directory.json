@@ -6,6 +6,10 @@
 	"url_fr": "https://nic.fa/fr",
 	"tags": ["by-farer"]
 }, {
+	"name": "DNS services",
+	"url": "https://dns.fa",
+	"tags": ["by-farer"]
+}, {
 	"name": "Lambda Systems",
 	"description": "Small engineerging research organisation",
 	"description_fr": "Petite organisation de recherche en ingénierie",
