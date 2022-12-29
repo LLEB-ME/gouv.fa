@@ -75,29 +75,3 @@ function search() {
 document.getElementById("search").addEventListener("keyup", () => {
   search();
 });
-/*document.getElementById("searchbtn").addEventListener("click", () => {
-  debounce(function () {
-    var term = $searchInput.value.trim();
-    if (term === currentTerm || !index) {
-      return;
-    }
-    $searchResults.style.display = term === "" ? "none" : "block";
-    $searchResultsItems.innerHTML = "";
-    if (term === "") {
-      return;
-    }
-
-    var results = index.search(term, options);
-    if (results.length === 0) {
-      $searchResults.style.display = "none";
-      return;
-    }
-
-    currentTerm = term;
-    for (var i = 0; i < Math.min(results.length, MAX_ITEMS); i++) {
-      var item = document.createElement("div");
-      item.innerHTML = formatSearchResultItem(results[i], term.split(" "));
-      $searchResultsItems.appendChild(item);
-    }
-  }, 150)
-});*/
