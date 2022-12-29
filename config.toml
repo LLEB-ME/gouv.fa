@@ -49,7 +49,7 @@ include_content= true
 	notrans= "Pas translation."
 
 	searchtitle= "Rechercher"
-	newstitle= "Articles"
+	newstitle= "Actualités"
 	searchlabel= "Rechercher les pages"
 	directorytitle= "Annuaire"
 
