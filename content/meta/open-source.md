@@ -11,6 +11,8 @@ This list is not exhaustive. [You can request an exhaustive list.](/meta/contact
 - [Ansible](https://github.com/ansible/ansible)
 - [Caddy](https://github.com/caddyserver/caddy)
 - [CoreDNS](https://github.com/coredns/coredns)
+- [Oracle Linux 9](https://yum.oracle.com/repo/OracleLinux/OL9/baseos/latest/x86_64/)
+- [Overpass font](https://github.com/farergroup/overpass) ([original repository](https://github.com/RedHatOfficial/Overpass))
 - [Rocky Linux](https://git.rockylinux.org/explore)
 - [Tailscale](https://github.com/tailscale/tailscale)
 - [Zola](https://github.com/getzola/zola)
@@ -21,4 +23,5 @@ This is a collection of software that we have used in the past or have developed
 - CentOS, in favour of Alpine Linux
 - [Docker](https://www.docker.com/community/open-source/), in favour of Ansible
 - [Dnsmasq](http://thekelleys.org.uk/git/dnsmasq.git), in favour of CoreDNS
+- Git hooks, in favour of Ansible
 - [NGINX](http://hg.nginx.org/nginx.org), in favour of Caddy
