@@ -7,3 +7,12 @@ En vertu de [Les droits et obligations des membres Farer](/fr/fedlex/2022-001), 
 - [Accéder à Farer via Internet local](/fr/members/lan-connect)
 - [Accéder à Farer via Tailscale/Wireguard](/fr/members/vpn-connect)
 - [Accès à des parties de Farer via Internet](/fr/members/public-access)
+
+## Voyages dans d'autres pays et régions
+The Farer Group, par nature, est mondial. Pour cette raison, il y a installation dans le monde entier pour aider les membres de Farer avec des sujets allant de l'information de visa, aide générale dan sles pays individuels, et plus. La liste actuelle dans versements est ([aussi sur la page Contact](/meta/contact)):
+  - [Les États-Unis](https://us.farer)
+    - [San Diego, Californie](https://ksan.us.farer) (Ouest des États-Unis)
+    - Est et Centre des États-Unis— [voir la page Contact](/meta/contact)
+  - [Europe](https://europe.farer)
+    - [France](https://france.europe.farer)
+    
