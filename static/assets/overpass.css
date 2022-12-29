@@ -1,0 +1,6 @@
+@font-face {
+	font-family: "Overpass", sans-serif;
+	src: local("Overpass"),
+		 url('fonts/overpass.woff') format("woff");
+	ascent-override: 105%;
+}
