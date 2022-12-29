@@ -4,7 +4,7 @@
 <section class="safe">
   <h2>{{page.title}}</h2>
 
-  <section class="altgrid">
+  <section>
     {% set data = load_data(path="directory.json") %}
     {% for item in data %}
       {% set url = "" %}
@@ -15,27 +15,29 @@
       {% else %}
         {% set url = item.url %}
       {% endif %}
-      <a href="{{ item.url }}" class="card click">
-        <h3>{{ item.name }}</h3>
+      <div>
+        <a href="{{ item.url }}">
+          <h3>{{ item.name }}</h3>
+        </a>
         {% if item.description_fr and lang == "fr" %}
         <p>{{ item.description_fr }}</p>
         {% else %}
         <p>{{ item.description }}</p>
         {% endif %}
         <div class="tags">
-        {% for tag in item.tags %}
-          {% if tag == "by-farer" %}
-            <span title="{{ trans(key="tag_farer_desc", lang=lang)}}" class="tag by-farer">{{ trans(key="tag_farer", lang=lang)}}</span>
-          {% elif tag == "staff" %}
-            <span title="{{ trans(key="tag_staff_desc", lang=lang)}}" class="tag staff">{{ trans(key="tag_staff", lang=lang)}}</span>
-          {% elif tag == "restricted" %}
-            <span title="{{ trans(key="tag_restricted_desc", lang=lang)}}" class="tag restricted">{{ trans(key="tag_restricted", lang=lang)}}</span>
-          {% elif tag == "verified" %}
-            <span title="{{ trans(key="tag_certified_desc", lang=lang)}}" class="tag verified">{{ trans(key="tag_certified", lang=lang)}}</span>
-          {% endif %}
-        {% endfor %}
+          {% for tag in item.tags %}
+            {% if tag == "by-farer" %}
+              <span title="{{ trans(key="tag_farer_desc", lang=lang)}}" class="tag by-farer">{{ trans(key="tag_farer", lang=lang)}}</span>
+            {% elif tag == "staff" %}
+              <span title="{{ trans(key="tag_staff_desc", lang=lang)}}" class="tag staff">{{ trans(key="tag_staff", lang=lang)}}</span>
+            {% elif tag == "restricted" %}
+              <span title="{{ trans(key="tag_restricted_desc", lang=lang)}}" class="tag restricted">{{ trans(key="tag_restricted", lang=lang)}}</span>
+            {% elif tag == "verified" %}
+              <span title="{{ trans(key="tag_certified_desc", lang=lang)}}" class="tag verified">{{ trans(key="tag_certified", lang=lang)}}</span>
+            {% endif %}
+          {% endfor %}
         </div>
-      </a>
+      </div>
     {% endfor %}
   </section>
 </section>
