@@ -11,6 +11,7 @@ This list is not exhaustive. [You can request an exhaustive list.](/meta/contact
 - [Ansible](https://github.com/ansible/ansible)
 - [Caddy](https://github.com/caddyserver/caddy)
 - [CoreDNS](https://github.com/coredns/coredns)
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 - [Oracle Linux 9](https://yum.oracle.com/repo/OracleLinux/OL9/baseos/latest/x86_64/)
 - [Overpass font](https://github.com/farergroup/overpass) ([original repository](https://github.com/RedHatOfficial/Overpass))
 - [Rocky Linux](https://git.rockylinux.org/explore)
