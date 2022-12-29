@@ -11,22 +11,20 @@ Pour toute autre préoccupation, envoyez un courriel à [general@gouv.fa](mailto
 
 ### Membres-ressources du personnel
 - CALDERON, Daniel<br/>
-  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon@farer.group](mailto:dcalderon@farer.group)
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
 - MERRILL, Jack<br/>
   Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill AROBASE farer.group](mailto:jmerrill@farer.group)
 - RONCHETTO, Matthew<br/>
-  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto@farer.group](mailto:mronchetto@farer.group)
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
 
 ### Membres-ressources du personnel de la région
-- Centre des États-Unis: MERRILL, April<br/>
-  Email: [april@gouv.fa](mailto:april@gouv.fa) / [amerrill@farer.group](mailto:amerrill@farer.group)
-- Est des États-Unis: MERRILL, Jack<br/>
+- Est et Centre des États-Unis: MERRILL, Jack<br/>
   Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill@farer.group](mailto:jmerrill@farer.group)
 - [Ouest des États-Unis](https://united-states.farer/west): CALDERON, Daniel<br/>
-  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon@farer.group](mailto:dcalderon@farer.group)
+  Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
   - [Farer in San Diego](https://ksan.united-states.farer/)
 - [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
-  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto@farer.group](mailto:mronchetto@farer.group)
+  Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
   - [La Farer en France](https://france.europe.farer)
 
 ### Demandes d'envoir par la poste et par télécopieur

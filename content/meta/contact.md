@@ -21,9 +21,7 @@ For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [gene
 - [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
   Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
   - [La Farer en France](https://france.europe.farer)
-- US Central: MERRILL, April<br/>
-  Email: [april@gouv.fa](mailto:april@gouv.fa) / [amerrill AROBASE farer.group](mailto:amerrill@farer.group)
-- US East: MERRILL, Jack<br/>
+- US Central and East: MERRILL, Jack<br/>
   Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill AROBASE farer.group](mailto:jmerrill@farer.group)
 - [US West](https://united-states.farer/west): CALDERON, Daniel<br/>
   Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
