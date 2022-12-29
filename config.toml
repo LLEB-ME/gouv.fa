@@ -25,6 +25,7 @@ include_content= true
 	notrans= "No translation available."
 
 	searchtitle= "Search"
+	newstitle= "News"
 	searchlabel= "Search pages"
 	directorytitle= "Directory"
 
@@ -48,6 +49,7 @@ include_content= true
 	notrans= "Pas translation."
 
 	searchtitle= "Rechercher"
+	newstitle= "Articles"
 	searchlabel= "Rechercher les pages"
 	directorytitle= "Annuaire"
 
