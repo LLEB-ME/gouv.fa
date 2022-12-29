@@ -2,7 +2,7 @@
 title= "Colours"
 +++
 
-The most common colours are textbook black and white, `#000` and `#fff`, respectively. Other accents may be used from time to time. These can be:
+The most common colours are textbook black and white, `#000` and `#fff`, respectively. Other accents may be used from time to time. These can be, but are not limited to:
 
 <section class="sandbox">
 	<p class="--farer-red">Red— #f65</p>
