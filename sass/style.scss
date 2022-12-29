@@ -11,6 +11,11 @@ html, body {
     &:hover, &:focus { text-decoration: none; }
   }
 }
+pre, code { font-family: "JetBrains Mono", monospace; }
+@supports (font-variation-settings: "wdth" 115) {
+  pre, code { font-family: "JetBrains Mono VF", "JetBrains Mono", monospace; }
+  html, body { font-family: "Overpass VF", "Overpass", sans-serif; }
+}
 
 header {
   background: #000;
