@@ -44,7 +44,7 @@
 	<div>
 		<h2>Articles d'actualité</h2>
 
-		{% set news = get_section(path="news/_index.md") %}
+		{% set news = get_section(path="news/_index.fr.md") %}
 		{% for article in news.pages | sort(attribute="date") | reverse | slice(end=5) %}
 			<p><a href="{{article.permalink}}">{{article.title}}—</a> {{article.description}} ({{article.date}})</p>
 		{% endfor %}
