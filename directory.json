@@ -11,14 +11,8 @@
 	"description_fr": "Petite organisation de recherche en ingénierie",
 	"url": "https://lambda.ac.fa",
 	"url_en": "https://lambda.ac.fa/en",
-	"tags": ["staff", "verified"]
-}, {
-	"name": "Mental Mello",
-	"description": "Small mental health research organisation",
-	"description_fr": "Petite organisation de recherche en santé mentale",
-	"url": "https://mello.ac.fa",
 	"tags": ["staff"]
-}, {
+},{
 	"name": "Polytechnic Systems",
 	"description": "Small research engineerging research organisation",
 	"description_fr": "Petite organisation de recherche en ingénierie",
@@ -31,9 +25,9 @@
 	"url": "https://lib.fa",
 	"tags": ["by-farer"]
 }, {
-	"name": "Farer Authentication Services",
-	"description": "Gérer les applications, les portées et autres données.",
-	"description_fr": "Petite organisation de recherche en ingénierie.",
+	"name": "Farer Authentication Service",
+	"description": "Manage your apps, scopes, and other data.",
+	"description_fr": "Gérer les applications, les portées et autres données.",
 	"url": "https://sec.gouv.fa",
 	"tags": ["by-farer"]
 }, {
@@ -61,28 +55,10 @@
 	"url": "https://freshrss.fa",
 	"tags": ["by-farer"]
 }, {
-	"name": "Miniflux",
-	"description": "Subscription storage for RSS and Atom feeds",
-	"description_fr": "Stockage par abonnement pour les flux RSS et Atom.",
-	"url": "https://miniflux.fa",
-	"tags": ["staff"]
-}, {
-	"name": "Privatebin",
-	"description": "Pastebin service",
-	"description_fr": "Service Pastebin",
-	"url": "https://bin.fa",
-	"tags": ["by-farer"]
-}, {
 	"name": "Matrix",
 	"description": "Federated messaging service",
 	"description_fr": "Service de messagerie fédéré",
 	"url": "https://chat.fa",
-	"tags": ["by-farer"]
-}, {
-	"name": "Jitsi Meet",
-	"description": "Encrypted online voice and video call service",
-	"description_fr": "Service d'appel vocal et vidéo en ligne crypté",
-	"url": "https://videocall.fa",
 	"tags": ["by-farer"]
 }, {
 	"name": "Voice-over-IP Calling",
@@ -102,13 +78,6 @@
 	"description_fr": "Recherche de tout Farer et Internet public",
 	"url": "https://search.fa",
 	"tags": ["by-farer"]
-}, {
-	"name": "Lunar Radio",
-	"description": "24/7 music with nearly no repeats.",
-	"description_fr": "Musique 24/7 sans répétition.",
-	"url": "https://listentolunar.fa",
-	"url_fr": "https://listentolunar.fa/fr",
-	"tags": ["staff", "restricted", "verified"]
 },{
 	"name": "Anki Sync",
 	"description": "Sync Anki flashdecks to Farer instead of AnkiWeb.",
@@ -126,5 +95,5 @@
 	"description": "Fictious nation state",
 	"description_fr": "État-nation fictif",
 	"url": "https://vitesses.fa",
-	"tags": ["staff", "verified"]
+	"tags": ["staff"]
 }]
