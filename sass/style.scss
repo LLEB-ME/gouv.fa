@@ -61,6 +61,7 @@ nav {
   font-size: .8rem;
   font-weight: 500;
   text-align: center;
+  white-space: nowrap;
   &.staff { background: #22DD77; }
   &.by-farer { background: #76BFFF; }
   &.restricted { background: #FF6554; }
