@@ -21,13 +21,10 @@ include_content= true
 [languages.en]
 	build_search_index= true
 [languages.en.translations]
-	curlang= "Current locale."
-	notrans= "No translation available."
-
 	searchtitle= "Search"
 	newstitle= "News"
+
 	searchlabel= "Search pages"
-	directorytitle= "Directory"
 
 	help= "Help"
 	contact= "Contact"
@@ -45,13 +42,10 @@ include_content= true
 [languages.fr]
 	build_search_index= true
 [languages.fr.translations]
-	curlang= "Langue actuel."
-	notrans= "Pas translation."
-
 	searchtitle= "Rechercher"
 	newstitle= "Actualités"
+
 	searchlabel= "Rechercher les pages"
-	directorytitle= "Annuaire"
 
 	help= "Obtenez de l'aide"
 	contact= "Contactez-nous"
