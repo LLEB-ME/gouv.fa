@@ -5,7 +5,7 @@ gouv.fa {
 	}
 
 	# Caching for fonts and other referable assets
-	header /assets/* Access-Control-Allow-Origin: *
+	header /assets/* Access-Control-Allow-Origin *
 	header /assets/* Cache-Control max-age=31536000
 
 	root * /srv/sites/gouv.fa/public
