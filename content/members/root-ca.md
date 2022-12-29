@@ -4,7 +4,7 @@ title= "Installing the root certificate"
 
 To access Farer services with an encrypted connection, you need to install the Farer root certificate. Guests and members use the same root certificate to access services.
 
-<a class="btn download" href="http://certstore.fa/rootca.cer">Download the root certificate</a><br/>
+<a class="btn download" href="http://gouv.fa/certstore/rootca.cer">Download the root certificate</a><br/>
 Alternatively, [download the certificate from GitHub.](https://github.com/farergroup/wiki/blob/main/static/certstore/rootca.cer)
 
 ## Platform-specific guides
@@ -26,7 +26,7 @@ After installing, you will need to restart your computer.
 ### macOS
 **Automatically:** Download the configuration profile below. Then, open System Preferences and navigate to `Profiles` and select `The Farer Group Root CA`. Select `Install`. You may have to manually trust it using Keychain Access (the instructions for such are in the "Manually" section).
 
-<a class="btn download" href="http://certstore.fa/FarerGroupCA.mobileconfig">Download the Apple configuration profile</a><br/>
+<a class="btn download" href="http://gouv.fa/certstore/FarerGroupCA.mobileconfig">Download the Apple configuration profile</a><br/>
 Alternatively, [download the profile from GitHub.](https://github.com/farergroup/wiki/blob/main/static/certstore/FarerGroupCA.mobileconfig)
 
 **Manually:**
@@ -58,7 +58,7 @@ After downloading, open the certificate. Some distributions of Android may vary 
 ### iDevices
 **Automatically:** Download the configuration profile below. Then, open System Preferences and navigate to `Profiles` and select `The Farer Group Root CA`. Select `Install`. You may have to manually trust it using Keychain Access (the instructions for such are in the "Manually" section).
 
-<a class="btn download" href="http://certstore.fa/FarerGroupCA.mobileconfig">Download the Apple configuration profile</a><br/>
+<a class="btn download" href="http://gouv.fa/certstore/FarerGroupCA.mobileconfig">Download the Apple configuration profile</a><br/>
 Alternatively, [download the profile from GitHub.](https://github.com/farergroup/wiki/blob/main/static/certstore/FarerGroupCA.mobileconfig)
 
 **Manually:**
