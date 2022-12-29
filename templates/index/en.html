@@ -1,7 +1,13 @@
-<div class="grid">
-	<section class="card r">
+<section class="hero">
+	<div>
+		<h1>Welcome to gouv.fa</h1>
+		<p>The main information portal for (hopefully) everything Farer related.</p>
+	</div>
+</section>
+<section class="grid">
+	<section class="r">
 		<h2>For Members</h2>
-		<a href="https://sec.gouv.fa/login?&redirect=https:%2F%2Fsec.gouv.fa%2Fdashboard" class="btn">Login</a>
+		<a href="https://sec.gouv.fa/login?&redirect=https:%2F%2Fsec.gouv.fa%2Fdashboard" class="btn">Login to Your Dashboard</a>
 		<ul>
 			<li><a href="/services/farernic">FarerNIC</a></li>
 			<li><a href="/members/travel">Holiday and Travel</a></li>
@@ -10,7 +16,7 @@
 			<li><a href="/members/your-rights">Your rights and obligations</a></li>
 		</ul>
 	</section>
-	<section class="card g">
+	<section class="g">
 		<h2>For Visitors</h2>
 		<a href="#" class="btn">Get Connected</a>
 		<ul>
@@ -20,12 +26,24 @@
 			<li><a href="/guests/usage-policy">Visitor Usage Policy</a></li>
 		</ul>
 	</section>
-	<section class="card b">
+	<section class="b">
 		<h2>For Public</h2>
+		<a href="#" class="btn">For consistency??</a>
 		<ul>
-			<li><a href="/meta/about">About Farer</a></li>
-			<li><a href="/fedlex">Common Law</a></li>
+			<li><a href="/meta/about">About The Farer Group</a></li>
+			<li><a href="/fedlex">Common law</a></li>
 			<li><a href="/meta/open-source">Open-source licensing</a></li>
+			<li><a href="/meta/public-resources">Read-only resources</a></li>
 		</ul>
 	</section>
-</div>
+</section>
+<section id="news">
+	<div>
+		<h2>News articles</h2>
+
+		{% set news = get_section(path="news/_index.md") %}
+		{% for article in news.pages | sort(attribute="date") | reverse | slice(end=5) %}
+			<p><a href="{{article.permalink}}">{{article.title}}—</a> {{article.description}} ({{article.date}})</p>
+		{% endfor %}
+	</div>
+</section>
