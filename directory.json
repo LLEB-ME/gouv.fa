@@ -6,17 +6,13 @@
 	"url_fr": "https://nic.fa/fr",
 	"tags": ["by-farer"]
 }, {
-	"name": "DNS services",
-	"url": "https://dns.fa",
-	"tags": ["by-farer"]
-}, {
 	"name": "Lambda Systems",
 	"description": "Small engineerging research organisation",
 	"description_fr": "Petite organisation de recherche en ingénierie",
 	"url": "https://lambda.ac.fa",
 	"url_en": "https://lambda.ac.fa/en",
 	"tags": ["staff", "verified"]
-},  {
+}, {
 	"name": "Mental Mello",
 	"description": "Small mental health research organisation",
 	"description_fr": "Petite organisation de recherche en santé mentale",
