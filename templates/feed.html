@@ -3,33 +3,32 @@
 {% set section = get_section(path=path) %}
 
 {% block content %}
-<section class="safe">
-  <h1 class="title">
-    {{section.title}}
-  </h1>
-  {% if section.content %}{{ section.content | safe }}
-  <hr/>{% endif %}
-</section>
-<section class="safe">
-  <ul>
-  {% set pages = section.pages %}
-  {% if paginator.pages %}
-    {% set pages = paginator.pages %}
+  {% if section.content %}
+  <section>
+    {{ section.content | safe }}
+  </section>
+  <hr>
   {% endif %}
-  {% set pageorder = pages | sort(attribute="title") %}
-  {% for post in pageorder | reverse %}
-    <li><a href="{{post.permalink | safe}}">{{post.title}}</a> ({{post.date}})</li>
-  {% endfor %}
-  </ul>
-</section>
-{% if paginator.pages %}
-<nav class="pagination">
-    {% if paginator.previous %}
-        <a class="previous" href="{{ paginator.previous }}">‹ Previous page</a>
+  <section>
+    <ul>
+    {% set pages = section.pages %}
+    {% if paginator.pages %}
+      {% set pages = paginator.pages %}
     {% endif %}
-    {% if paginator.next %}
-        <a class="next" href="{{ paginator.next }}">Next page ›</a>
-    {% endif %}
-</nav>
-{% endif %}
+    {% set pageorder = pages | sort(attribute="title") %}
+    {% for post in pageorder | reverse %}
+      <li><a href="{{post.permalink | safe}}">{{post.title}}</a> ({{post.date}})</li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% if paginator.pages %}
+  <nav class="pagination">
+      {% if paginator.previous %}
+          <a class="previous" href="{{ paginator.previous }}">‹ Previous page</a>
+      {% endif %}
+      {% if paginator.next %}
+          <a class="next" href="{{ paginator.next }}">Next page ›</a>
+      {% endif %}
+  </nav>
+  {% endif %}
 {% endblock content %}
