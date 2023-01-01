@@ -69,11 +69,11 @@
     </nav>
     {% if lang == "en" %}
     <div class="notice">
-      <p><strong>Heads up!</strong> We're currently redesigning Gouv.fa. <a href="/meta/contact">Contact Farer staff if you need help.</a></p>
+      <span><strong>Heads up!</strong> We're currently redesigning Gouv.fa. <a href="/meta/contact">Contact Farer staff if you need help.</a></span>
     </div>
     {% else %}
     <div class="notice">
-      <p><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. <a href="/fr/meta/contact">Contactez le personnel de Farer si vous besoin d'aide.</a></p>
+      <span><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. <a href="/fr/meta/contact">Contactez le personnel de Farer si vous besoin d'aide.</a></span>
     </div>
     {% endif %}
     <section class="hero">
@@ -83,7 +83,7 @@
           <p>{{page.description}}</p>
         {% elif section.title %}
           <h1>{{section.title}}</h1>
-          <p>{{section.description}}</p>
+          {% if section.description %}<p>{{section.description}}</p>{% endif %}
         {% endif %}
         {% block header %}{% endblock header %}
       </div>
