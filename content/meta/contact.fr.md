@@ -20,17 +20,17 @@ Pour toute autre préoccupation, envoyez un courriel à [general@gouv.fa](mailto
 ### Membres-ressources du personnel de la région
 - Est et Centre des États-Unis: MERRILL, Jack<br/>
   Email: [jack@gouv.fa](mailto:jack@gouv.fa) / [jmerrill@farer.group](mailto:jmerrill@farer.group)
-- [Ouest des États-Unis](https://united-states.farer/west): CALDERON, Daniel<br/>
+- [Ouest des États-Unis](https://us.farer/west): CALDERON, Daniel<br/>
   Email: [dan@gouv.fa](mailto:dan@gouv.fa) / [dcalderon AROBASE farer.group](mailto:dcalderon@farer.group)
-  - [Farer in San Diego](https://ksan.united-states.farer/)
-- [Europe](https://europe.farer): RONCHETTO, Matthew<br/>
+  - [Farer in San Diego](https://ksan.us.farer/)
+- [Europe](https://europe.farer/fr): RONCHETTO, Matthew<br/>
   Email: [matt@gouv.fa](mailto:matt@gouv.fa) / [mronchetto AROBASE farer.group](mailto:mronchetto@farer.group)
   - [La Farer en France](https://france.europe.farer)
 
 ### Demandes d'envoir par la poste et par télécopieur
 Les demandes et formulaires qui doivent être envoyés par la poste peuvent aller à ces adresses :
 
-- [Farer in San Diego](https://ksan.united-states.farer/)<br/>
+- [Farer in San Diego](https://ksan.us.farer/)<br/>
   Demandes et formulaires acceptés: `Membership documents`, `General`
 - [La Farer en France](https://france.europe.farer)<br/>
   Demandes et formulaires acceptés: `Membership documents`, `General`

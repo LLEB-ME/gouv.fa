@@ -13,4 +13,4 @@ The Farer Group, by nature, is worldwide. Because of such, there are installemen
     - [San Diego, California](https://ksan.us.farer)
     - US Central and East— [see Contact page](/meta/contact)
   - [Europe](https://europe.farer)
-    - [France](https://france.europe.farer)
+    - [France](https://france.europe.farer/en)

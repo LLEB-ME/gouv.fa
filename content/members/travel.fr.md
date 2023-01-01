@@ -13,6 +13,6 @@ The Farer Group, par nature, est mondial. Pour cette raison, il y a installation
   - [Les États-Unis](https://us.farer)
     - [San Diego, Californie](https://ksan.us.farer) (Ouest des États-Unis)
     - Est et Centre des États-Unis— [voir la page Contact](/meta/contact)
-  - [Europe](https://europe.farer)
+  - [Europe](https://europe.farer/fr)
     - [France](https://france.europe.farer)
     
