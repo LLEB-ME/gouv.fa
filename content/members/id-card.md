@@ -25,4 +25,4 @@ There are some security measures in place such as signing the contents of the ch
 
 Those without access must print and fill out the form below. Mailed requests should be mailed to or faxed to the closest location that accepts `Membership documents`.<br/>[View locations &rarr;](/meta/contact)
 
-<a class="btn download" href="https://sec.gouv.fa/forms/id-application.pdf">Download "Request for an ID card" PDF (0,00 Mo)</a>
+<a class="btn download" href="/forms/id-application.pdf">Download "Request for an ID card" PDF (0,00 Mo)</a>

@@ -29,4 +29,5 @@ Après une demande soumise, il peut s’écouler jusqu’à une semaine avant qu
 
 Ceux qui n’ont pas accès doivent imprimer et remplir le formulaire ci-dessous. Les demandes envoyées par la poste doivent être envoyées par la poste ou par télécopieur à l’endroit le plus près qui accepte `les Documents d’adhésion`.<br/>[Voir les emplacements &rarr;](/fr/meta/contact)
 
-<a class="btn download" href="https://sec.gouv.fa/forms/com-application.pdf">Télecharger "Demande de certificat d’adhésion" PDF (0,00 Mo)</a>
+<a class="btn download" href="/fr/forms/com-application">Remplir "Demande de certificat d’adhésion" PDF en ligne</a>
+<a class="btn download" href="/forms/com-application.pdf">Télecharger "Demande de certificat d’adhésion" PDF (0,00 Mo)</a>
