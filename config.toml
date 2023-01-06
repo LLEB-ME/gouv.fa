@@ -45,6 +45,7 @@ include_content= true
 	form-email= "What is your Farer-issued email address?"
 	form-memberid= "What is your member ID?"
 
+	form-address-notice= "This is only required if you are requesting a physical document."
 	form-address= "What is your mailing address?"
 	form-address-street= "Postal address"
 	form-address-addt= "Supplemental informations"
@@ -82,6 +83,7 @@ include_content= true
 	form-email= "Quell est votre e-mail émise par Farer?"
 	form-memberid= "Quel est votre numéro de ID émise par Farer?"
 
+	form-address-notice= "Ceci n'est requis que si vous demandez un document physique."
 	form-address= "Quelle est votre adresse postale?"
 	form-address-street= "Adresse postale"
 	form-address-addt= "Informations supplémentaires"
