@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block header %}
+<p>{% if page.updated %}<em>{{ trans(key="lastupdated", lang=lang) }}: {{ page.updated }}</em> {% endif %}</p>
+{% endblock header %}
+
+{% block content %}
+  <article>
+  	<form id="pdfgen" name="farer-com-application" document="{{ config.base_url }}/forms/com-application.pdf">
+  		<ol>
+				{% include "forms/reuse/name.html" %}
+				{% include "forms/reuse/email.html" %}
+				{% include "forms/reuse/memberid.html" %}
+				{% include "forms/reuse/mailingaddress.html" %}
+				<li>
+					<input type="checkbox" id="affirm" name="affirm" />
+					{% if lang == "en" %}
+						<label for="affirm">I am the person listed above and am confirming the request for my certificate of membership.</label>
+					{% else %}
+						<label for="affirm">Je suis la personne mentionnée ci-dessus et je confirme ma demande de certificat d’adhésion.</label>
+					{% endif %}
+			</ol>
+			<p>{{ trans(key="form-requireddocs", lang=lang) }}</p>
+			<ul>
+				<li>
+					{{ trans(key="form-proofofmembership", lang=lang) }}
+				</li>
+			</ul>
+			<input type="submit" id="submit" value="Create PDF to print" class="btn" />
+  	</form>
+  </article>
+{% endblock content %}
+
+{% block scripts %}
+<script async src="{{ get_url(path='pdf-lib.min.js') }}"></script>
+<script async src="{{ get_url(path='download.min.js') }}"></script>
+<script async defer src="{{ get_url(path='qrcode.min.js') }}"></script>
+<script async defer src="{{ get_url(path='pdf.js') }}"></script>
+{% endblock scripts %}
