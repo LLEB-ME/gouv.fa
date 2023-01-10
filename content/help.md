@@ -11,4 +11,6 @@ For all other concerns, email [general@gouv.fa](mailto:general@gouv.fa) or [gene
 ---
 
 ## Frequently asked questions
+**Q:** Is there a service outage?<br>
+**A:** Outages for services provided by The Farer Group are made public via [https://status.gouv.fa](https://status.gouv.fa). If and when backbone infrastructure is down, a banner with information will be near the top of the page.
 No questions have been added yet.
