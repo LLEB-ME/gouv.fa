@@ -67,6 +67,19 @@
         </a>
       </div>
     </nav>
+    
+    {#
+    {% if lang == "en" %}
+    <div class="notice">
+      <span class="f--alert"><strong>Heads up!</strong> US West is currently experiencing outages due to the Spectrum outage in San Diego.</span>
+    </div>
+    {% else %}
+    <div class="notice">
+      <span class="f--alert"><strong>Avertissement!</strong> L'ouest d'États-Unis est </span>
+    </div>
+    {% endif %}
+    #}
+
     {% if lang == "en" %}
     <div class="notice">
       <span><strong>Heads up!</strong> We're currently redesigning Gouv.fa. <a href="/meta/contact">Contact Farer staff if you need help.</a></span>
