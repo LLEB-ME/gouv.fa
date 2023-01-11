@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gouv.fa
+  labels:
+    app: web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: compile
+          image: ghcr.io/getzola/zola:v0.16.0
+          command: ["zola"]
+          args: ["-u", DEPLOY_URL, "-o", DEPLOY_LOC]
+          env:
+            - name: DEPLOY_URL
+              value: https://gouv.fa
+            - name: DEPLOY_LOC
+              value: /srv/caddy/gouv.fa/
+
+# Missing:
+#  - HSM/PKI fetch for getting certificate (should fetch from ACME in future)
+#  - Caddy for serving website
