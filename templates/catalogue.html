@@ -21,7 +21,7 @@
         {% set url = item.url %}
       {% endif %}
       <li>
-        <p><a href="{{ item.url }}">{{ item.name }}</a>—{% if item.description_fr and lang == "fr" %}{{ item.description_fr }}{% else %}{{ item.description }}{% endif %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a>— {% if item.description_fr and lang == "fr" %}{{ item.description_fr }}{% else %}{{ item.description }}{% endif %}
           {% for tag in item.tags %}
             {% if tag == "by-farer" %}
               <span title="{{ trans(key="tag_farer_desc", lang=lang)}}" class="tag by-farer">{{ trans(key="tag_farer", lang=lang)}}</span>
