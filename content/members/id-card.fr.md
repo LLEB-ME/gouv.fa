@@ -25,4 +25,4 @@ Certaines mesures de sécurité sont en place, comme la signature du contenu de 
 
 Ceux qui n’ont pas accès doivent imprimer et remplir le formulaire ci-dessous. Les demandes envoyées par la poste doivent être envoyées par la poste ou par télécopieur à l’endroit le plus près qui accepte `les Documents d’adhésion`.<br/>[Voir les emplacements &rarr;](/fr/meta/contact)
 
-<a class="btn download" href="/forms/id-application.pdf">Télecharger "Demande de carte d'identité" PDF (0,00 Mo)</a>
+<a href="/forms/id-application.pdf"><button>Télecharger "Demande de carte d'identité" PDF (0,00 Mo)</button></a>

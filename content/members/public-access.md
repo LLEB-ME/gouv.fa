@@ -16,9 +16,6 @@ A few essential services are accessible outside of the Farer Network for those w
 - Send
   - Public URL: https://send.farer.group (download only, no upload)
   - Farer URL:  https://send.fa
-- Lemmy
-  - Public URL: https://lemmy.farer.group (read-only)
-  - Farer URL:  https://lemmy.fa
 - Open-Access Library, from The Libraries
   - Public URL: https://publib.farer.group
   - Farer URL:  https://pub.lib.fa

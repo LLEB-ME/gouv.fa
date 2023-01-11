@@ -21,4 +21,4 @@ Les politiques peuvent être mises en œuvre de deux façons:
 ### Pourquoi il y a une certaine bureaucratie?
 Le groupe Farer a le devoir de veiller à ce que les droits des membres ne soient pas violés et que leurs obligations soient respectées. Cette "paperasserie" vise à permettre la reddition de comptes en cas de "délit".
 
-<a href="/vote/be-informed" class="btn">Soyez un électeur informé.</a>
+<a href="/vote/be-informed"><button>Soyez un électeur informé.</button></a>

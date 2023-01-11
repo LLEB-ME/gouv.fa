@@ -6,9 +6,9 @@ date= 2023-01-01
 Les boutons avait été concevoir à amical et utilisable en les plupart situations.
 
 <section class="sandbox">
-	<a href="#" class="btn">Bouton par défaut</a>
-	<a href="#" class="btn submit">Bouton de soumission</a>
-	<a href="#" class="btn cancel">Bouton de annulation</a>
+	<a href="#"><button>Bouton par défaut</button></a>
+	<a href="#"><button class="submit">Bouton de soumission</button></a>
+	<a href="#"><button class="cancel">Bouton de annulation</button></a>
 </section>
 
 [Comme liens, les boutons devrais avoir assez texte](/meta/design/links) afin que les personnes pouvez lire ou ecouter ce que le bouton est étiqueter et comprendre ce que fait le bouton. Cette devrais plus de "En savoir plus", mais devrais excéder 30 caractères.

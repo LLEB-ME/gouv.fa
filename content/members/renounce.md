@@ -32,4 +32,4 @@ Those who renounce membership may consider:
 
 Those without access must print and fill out the form below. Mailed requests should be mailed to or faxed to the closest location that accepts `Membership documents`. [View locations &rarr;](/meta/contact)
 
-<a class="btn download" href="https://sec.gouv.fa/forms/renounce-membership.pdf">Download "Renunciation of Farer membership" PDF (0,00 Mo)</a>
+<a href="https://sec.gouv.fa/forms/renounce-membership.pdf"><button>Download "Renunciation of Farer membership" PDF (0,00 Mo)</button></a>

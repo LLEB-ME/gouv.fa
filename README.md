@@ -1,5 +1,5 @@
 ## Building and Deploying
-0. Install [Zola](https://getzola.org)
+0. Install [Zola](https://getzola.org) (minimum version v0.17 (?; currently on `next` branch))
 1. Build the site (`zola build`) or serve changes locally (`zola serve`)
 2. Push to Git.
   - Pushing to GitHub is being deprecated in favour of Git.fa

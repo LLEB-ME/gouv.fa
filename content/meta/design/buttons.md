@@ -6,9 +6,9 @@ date= 2022-12-28
 Buttons are designed to be friendly and usable in most any situation.
 
 <section class="sandbox">
-	<a href="#" class="btn">Default button</a>
-	<a href="#" class="btn submit">Submission button</a>
-	<a href="#" class="btn cancel">Cancellation button</a>
+	<a href="#"><button>Default button</button></a>
+	<a href="#"><button class="submit">Submission button</button></a>
+	<a href="#"><button class="cancel">Cancellation button</button></a>
 </section>
 
 [Like links,](/meta/design/links) buttons should have enough text so that someone can read or hear what the button is labelled and understand what the button does. It should be more than "Read more", but should generally not exceed 30 characters.

@@ -2,7 +2,7 @@
 title= "Vote!"
 +++
 
-<a class="btn" href="/vote/be-informed">Be an informed voter.</a>
+<a href="/vote/be-informed"><button>Be an informed voter.</button></a>
 
 Voting in Farer is starkly different from many countries: votes on policies can cause significant changes to how The Farer Group works and how Farer operates. As Farer members, it is expected that you become an informed voter and highly encouraged that you exercise your rights to vote and repeal policies.
 

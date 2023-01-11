@@ -21,4 +21,4 @@ Policies can be brought into action in one of two ways:
 ### Why there is some bureaucracy
 The Farer Group has the duty of ensuring that members' rights are not infringed and that their obligations are met. This "red tape" is meant to allow accountability if and when "foul play" occurs.
 
-<a href="/vote/be-informed" class="btn">Be an informed voter.</a>
+<a href="/vote/be-informed"><button>Be an informed voter.</button></a>
