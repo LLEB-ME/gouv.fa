@@ -24,11 +24,11 @@
         <p><a href="{{ item.url }}">{{ item.name }}</a>— {% if item.description_fr and lang == "fr" %}{{ item.description_fr }}{% else %}{{ item.description }}{% endif %}
           {% for tag in item.tags %}
             {% if tag == "by-farer" %}
-              <span title="{{ trans(key="tag_farer_desc", lang=lang)}}" class="tag by-farer">{{ trans(key="tag_farer", lang=lang)}}</span>
+              <fa-tag title="{{ trans(key="tag_farer_desc", lang=lang)}}" class="f--b">{{ trans(key="tag_farer", lang=lang)}}</fa-tag>
             {% elif tag == "staff" %}
-              <span title="{{ trans(key="tag_staff_desc", lang=lang)}}" class="tag staff">{{ trans(key="tag_staff", lang=lang)}}</span>
+              <fa-tag title="{{ trans(key="tag_staff_desc", lang=lang)}}" class="f--g">{{ trans(key="tag_staff", lang=lang)}}</fa-tag>
             {% elif tag == "restricted" %}
-              <span title="{{ trans(key="tag_restricted_desc", lang=lang)}}" class="tag restricted">{{ trans(key="tag_restricted", lang=lang)}}</span>
+              <fa-tag title="{{ trans(key="tag_restricted_desc", lang=lang)}}" class="f--r">{{ trans(key="tag_restricted", lang=lang)}}</fa-tag>
             {% endif %}
           {% endfor %}
         </p>

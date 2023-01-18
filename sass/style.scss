@@ -1,14 +1,13 @@
 @import "./farer-sheet";
 
 // Site-specific styles
-
 #home {
   display: flex;
   flex-flow: row;
   align-items: center;
   font-weight: 700;
 }
-.tag {
+fa-tag {
   background: #f7f;
   padding: 2px 16px;
   border-radius: 16px;
@@ -16,9 +15,6 @@
   font-size: .8rem;
   text-align: center;
   white-space: nowrap;
-  &.staff { background: #22DD77; }
-  &.by-farer { background: #76BFFF; }
-  &.restricted { background: #FF6554; }
 }
 
 //
