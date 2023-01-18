@@ -16,6 +16,17 @@ fa-tag {
   text-align: center;
   white-space: nowrap;
 }
+fa-sandbox {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid $farer-k;
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: .5rem;
+  height: 200px;
+  overflow-y: auto;
+}
 
 //
 

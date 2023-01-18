@@ -134,14 +134,12 @@ fa-alert {
   }
   @media print { display: none !important; }
 }
-fa-sandbox,
 pre {
   display: block;
   max-width: 100%;
   width: 100%;
   border: 1px solid $farer-k;
   border-radius: 8px;
-  //background: $farer-w;
   margin: 1rem 0;
   padding: .5rem;
   height: 200px;
