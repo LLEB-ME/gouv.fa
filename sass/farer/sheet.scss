@@ -1,13 +1,5 @@
-@use "sass:color";
-
-// Colour palette
-$farer-r: #f65;
-$farer-o: #000;
-$farer-g: #2d7;
-$farer-b: #7bf;
-$farer-p: #000;
-$farer-w: #eee;
-$farer-k: #000; // Key, or black
+@use "sass:color" as color;
+@import "_vars";
 
 // Needs to be converted (fragments may remain in ./style.scss)
 header {
@@ -49,22 +41,19 @@ nav { max-width: 80ch; }
 html, body {
   margin: 0;
   padding: 0;
-  font: 1.075rem/1.3 "Overpass", sans-serif;
+  @include font-sans;
   background: $farer-w;
+
 }
 a {
   color: inherit;
   &:hover, &:focus { text-decoration: none; }
 }
 pre, code {
-  font-family: "JetBrains Mono", monospace;
+  @include font-mono;
   overflow-x: auto;
 }
 pre > code { overflow-y: auto; }
-@supports (font-variation-settings: "wdth" 115) {
-  pre, code { font-family: "JetBrains Mono VF", "JetBrains Mono", monospace; }
-  html, body { font-family: "Overpass VF", "Overpass", sans-serif; }
-}
 [aria-disabled="false"] { opacity: 0.8; }
 
 .f--panic, .f--r { background: $farer-r !important; }
@@ -73,7 +62,6 @@ pre > code { overflow-y: auto; }
 .f--submit, .f--b { background: $farer-b !important; }
 .f--p { background: $farer-p !important; }
 
-@mixin lighten($c) { background: color.scale($c, $lightness: 10%); }
 button,
 input[type=submit] {
   background: #fff;
