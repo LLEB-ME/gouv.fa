@@ -1,6 +1,8 @@
 @use "sass:color" as color;
 @import "_vars";
 
+* { box-sizing: border-box; }
+
 // Needs to be converted (fragments may remain in ./style.scss)
 header {
   background: $farer-k;
@@ -13,22 +15,22 @@ nav {
   justify-content: space-between;
   flex-flow: column;
   padding: 0 1rem;
+  max-width: 80ch;
   a {
     text-decoration: none;
     margin: .5rem;
   }
   svg > path { fill: #fff; }
-}
-nav { max-width: 80ch; }
-@media (min-width: 800px) {
-  nav {
+  @media print {
+    div { display: none !important; }
+    svg > path {
+      fill: $farer-k;
+    }
+  }
+  @media (min-width: 800px) {
     flex-flow: row;
     margin: 0 auto;
   }
-}
-@media print {
-  nav svg > path { fill: $farer-k; }
-  nav > div { display: none !important; }
 }
 
 /// /// ///      /// /// ///
@@ -68,7 +70,6 @@ input[type=submit] {
   text-align: center;
   color: $farer-k;
   padding: 6px 10px;
-  box-sizing: border-box;
   border: 2px rgba(0,0,0,.2) solid;
   border-bottom-width: 4px;
   font-size: inherit;
@@ -139,8 +140,6 @@ fa-hero {
   background: $farer-k;
   color: #fff;
   padding: 1rem 2rem;
-  div {
-    margin: 0 auto;
-    max-width: 80ch;
-  }
+  max-width: 80ch;
+  margin: 0 auto;
 }

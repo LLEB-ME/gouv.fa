@@ -44,13 +44,55 @@ ul {
 
 //
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 80ch;
+  padding: 0 2rem;
+  :first-child { margin-left: 0; }
+  section {
+    // TODO: Narrow on proper mobile view
+    flex: 1 1 0;
+    max-width: 100%;
+    margin: 32px 16px 8px;
+    padding-left: 12px;
+    border-left: 4px solid $farer-w;
+    h2 { margin: 0.5rem 0; }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-weight: 600;
+      li { margin: 12px 0; }
+    }
+
+    &.r { border-color: $farer-r; }
+    &.g { border-color: $farer-g; }
+    &.b { border-color: $farer-b; }
+  }
+}
+
+// TODO: Replace with generic for main page
+#news {
+  padding: 1rem 2rem;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+article {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 80ch;
+  @media print { padding: 0; }
+}
+
 footer {
-  padding: 32px 48px 64px;
   background: $farer-k;
   color: #fff;
   div {
+    padding: 1rem 2rem 3rem;
+    max-width: 80ch;
     margin: 0 auto;
-    :last-child { margin-bottom: 0; }
   }
   section {
     a {
@@ -58,55 +100,5 @@ footer {
       &:first-child { margin-left: 0; }
     }
   }
-}
-
-//
-
-
-.grid {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  margin: 0 auto;
-  section {
-    box-sizing: border-box;
-    max-width: 100%;
-    margin: 32px 16px 8px;
-    padding-left: 12px;
-    border-left: 4px solid #f7b;
-    ul {
-      list-style: none;
-      padding-left: 0;
-      font-weight: 600;
-      li { margin: 12px 0; }
-    }
-    button { text-align: left; }
-    h2 { margin: 0.5rem 0; }
-  }
-  .r { border-color: $farer-r; }
-  .g { border-color: $farer-g; }
-  .b { border-color: $farer-b; }
-}
-#news {
-  padding: 32px 48px;
-  div { margin: 0 auto; }
-}
-
-article {
-  padding: 1rem 2rem;
-  margin: 0 auto;
-}
-article,
-#news > div,
-footer > div,
-.grid { max-width: 80ch; }
-@media (min-width: 800px) {
-  .grid {
-    flex-flow: row;
-    section { width: 100%; }
-  }
-}
-@media print {
-  footer { display: none !important; }
-  article { padding: 0; }
+  @media print { display: none !important; }
 }
