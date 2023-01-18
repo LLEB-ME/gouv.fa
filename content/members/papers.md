@@ -14,4 +14,5 @@ Members are given a plastic ID card and a Certificate of Membership. It is expec
 
 - [Applying for an ID card](/members/id-card)
 - [Applying for a Certificate of Membership](/members/cert-of-membership)
+- [Obtaining a Regional Resident Card](/members/resident-card)
 - [Replacing lost identity documents](/members/replace-lost-documents)
