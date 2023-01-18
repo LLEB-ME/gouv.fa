@@ -30,14 +30,6 @@ ul {
   li:first-child { margin-top: 0; }
   li:last-child { margin-bottom: 0; }
 }
-input[type="search"] {
-  border: 2px solid rgba(0,0,0,.2);
-  color: inherit;
-  border-radius: 8px;
-  width: 100%;
-  padding: 8px 20px;
-  font-size: 1rem;
-}
 .control {
   display: flex;
   flex-flow: row;
@@ -65,10 +57,6 @@ footer {
 
 //
 
-.hero {
-  background: $farer-k;
-  color: #fff;
-}
 
 .grid {
   display: flex;
@@ -99,13 +87,11 @@ footer {
   div { margin: 0 auto; }
 }
 
-.hero > div,
 article {
   padding: 1rem 2rem;
   margin: 0 auto;
 }
 article,
-.hero > div,
 #news > div,
 footer > div,
 .grid { max-width: 80ch; }
@@ -117,5 +103,5 @@ footer > div,
 }
 @media print {
   footer { display: none !important; }
-  article, .hero > div { padding: 0; }
+  article { padding: 0; }
 }
