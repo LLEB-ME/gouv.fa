@@ -70,24 +70,24 @@
     
     {#
     {% if lang == "en" %}
-    <div class="notice">
-      <span class="f--alert"><strong>Heads up!</strong> US West is currently experiencing outages due to the Spectrum outage in San Diego.</span>
-    </div>
+    <fa-alert>
+      <span class="f--panic"><strong>Heads up!</strong> US West is currently experiencing outages due to the Spectrum outage in San Diego.</span>
+    </fa-alert>
     {% else %}
-    <div class="notice">
-      <span class="f--alert"><strong>Avertissement!</strong> L'ouest d'États-Unis est </span>
-    </div>
+    <fa-alert>
+      <span class="f--panic"><strong>Avertissement!</strong> L'ouest d'États-Unis est </span>
+    </fa-alert>
     {% endif %}
     #}
 
     {% if lang == "en" %}
-    <div class="notice">
+    <fa-alert>
       <span><strong>Heads up!</strong> We're currently redesigning Gouv.fa. <a href="/meta/contact">Contact Farer staff if you need help.</a></span>
-    </div>
+    </fa-alert>
     {% else %}
-    <div class="notice">
+    <fa-alert>
       <span><strong>Avertissement!</strong> Nous sommes en trian de remanier Gouv.fa. <a href="/fr/meta/contact">Contactez le personnel de Farer si vous besoin d'aide.</a></span>
-    </div>
+    </fa-alert>
     {% endif %}
     <section class="hero">
       <div>

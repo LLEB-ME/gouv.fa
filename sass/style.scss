@@ -2,7 +2,6 @@
 @use "sass:color";
 $farer-r: #f65;
 $farer-o: #000;
-$farer-y: #000;
 $farer-g: #2d7;
 $farer-b: #7bf;
 $farer-p: #000;
@@ -19,15 +18,22 @@ a {
   color: inherit;
   &:hover, &:focus { text-decoration: none; }
 }
-pre, code { font-family: "JetBrains Mono", monospace; }
+pre, code {
+  font-family: "JetBrains Mono", monospace;
+  overflow-x: auto;
+}
+pre > code { overflow-y: auto; }
 @supports (font-variation-settings: "wdth" 115) {
   pre, code { font-family: "JetBrains Mono VF", "JetBrains Mono", monospace; }
   html, body { font-family: "Overpass VF", "Overpass", sans-serif; }
 }
 [aria-disabled="false"] { opacity: 0.8; }
 
-.f--alert { background: $farer-r !important; }
-.f--submit { background: $farer-b !important; }
+.f--panic, .f--r { background: $farer-r !important; }
+.f--o { background: $farer-o !important; }
+.f--g { background: $farer-g !important; }
+.f--submit, .f--b { background: $farer-b !important; }
+.f--p { background: $farer-p !important; }
 
 @mixin lighten($c) { background: color.scale($c, $lightness: 10%); }
 button,
@@ -65,6 +71,34 @@ input[type=submit] {
 }
 @media print {
   button, input[type=submit] { font-size: .8rem; }
+}
+
+fa-alert {
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 80ch;
+  span {
+    background: $farer-b;
+    color: $farer-k;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 8px;
+  }
+  @media print { display: none !important; }
+}
+fa-sandbox,
+pre {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid $farer-k;
+  border-radius: 8px;
+  background: $farer-w;
+  margin: 1rem 0;
+  padding: .5rem;
+  height: 200px;
+  overflow-y: auto;
 }
 
 ///
@@ -209,39 +243,16 @@ footer {
   div { margin: 0 auto; }
 }
 
-.sandbox {
-  max-width: 100%;
-  width: 100%;
-  border: 1px solid $farer-k;
-  border-radius: 8px;
-  background: $farer-w;
-  margin: 1rem 0;
-  padding: 0;
-  height: 200px;
-}
-
 .hero > div,
-article,
-.notice {
+article {
   padding: 1rem 2rem;
   margin: 0 auto;
 }
 article,
-.notice,
 .hero > div,
 #news > div,
 footer > div,
 .grid { max-width: 80ch; }
-.notice > span{
-  background: $farer-b;
-  color: $farer-k;
-  display: block;
-  padding: 12px 16px;
-  border-radius: 8px;
-}
-.notice {
-  margin: 0 auto;
-}
 @media (min-width: 800px) {
   .grid {
     flex-flow: row;
@@ -249,6 +260,6 @@ footer > div,
   }
 }
 @media print {
-  .notice, footer { display: none !important; }
+  footer { display: none !important; }
   article, .hero > div { padding: 0; }
 }
