@@ -1,0 +1,140 @@
+@use "sass:color";
+
+// Colour palette
+$farer-r: #f65;
+$farer-o: #000;
+$farer-g: #2d7;
+$farer-b: #7bf;
+$farer-p: #000;
+$farer-w: #eee;
+$farer-k: #000; // Key, or black
+
+// Needs to be converted (fragments may remain in ./style.scss)
+header {
+  background: $farer-k;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  padding: 0 1rem;
+  a {
+    text-decoration: none;
+    margin: .5rem;
+  }
+  svg > path { fill: #fff; }
+}
+nav { max-width: 80ch; }
+@media (min-width: 800px) {
+  nav {
+    flex-flow: row;
+    margin: 0 auto;
+  }
+}
+@media print {
+  nav svg > path { fill: $farer-k; }
+  nav > div { display: none !important; }
+}
+
+/// /// ///      /// /// ///
+///     ///      ///     ///
+/// /// ///      /// /// ///
+
+        ///       ///
+          /////////
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font: 1.075rem/1.3 "Overpass", sans-serif;
+  background: $farer-w;
+}
+a {
+  color: inherit;
+  &:hover, &:focus { text-decoration: none; }
+}
+pre, code {
+  font-family: "JetBrains Mono", monospace;
+  overflow-x: auto;
+}
+pre > code { overflow-y: auto; }
+@supports (font-variation-settings: "wdth" 115) {
+  pre, code { font-family: "JetBrains Mono VF", "JetBrains Mono", monospace; }
+  html, body { font-family: "Overpass VF", "Overpass", sans-serif; }
+}
+[aria-disabled="false"] { opacity: 0.8; }
+
+.f--panic, .f--r { background: $farer-r !important; }
+.f--o { background: $farer-o !important; }
+.f--g { background: $farer-g !important; }
+.f--submit, .f--b { background: $farer-b !important; }
+.f--p { background: $farer-p !important; }
+
+@mixin lighten($c) { background: color.scale($c, $lightness: 10%); }
+button,
+input[type=submit] {
+  background: #fff;
+  text-align: center;
+  color: $farer-k;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border: 2px rgba(0,0,0,.2) solid;
+  border-bottom-width: 4px;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: inherit;
+
+  &:hover {
+    margin-top: 2px;
+    border-bottom-width: 2px;
+  }
+  &:active { @include lighten($farer-w); }
+
+  &.submit {
+    background: $farer-b;
+    &:active { @include lighten($farer-b); }
+  }
+  &.cancel {
+    background: $farer-r;
+    &:active { @include lighten($farer-r); }
+  }
+}
+@media print {
+  button, input[type=submit] { font-size: .8rem; }
+}
+
+fa-alert {
+  display: block;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 80ch;
+  span {
+    background: $farer-b;
+    color: $farer-k;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 8px;
+  }
+  @media print { display: none !important; }
+}
+fa-sandbox,
+pre {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid $farer-k;
+  border-radius: 8px;
+  background: $farer-w;
+  margin: 1rem 0;
+  padding: .5rem;
+  height: 200px;
+  overflow-y: auto;
+}
