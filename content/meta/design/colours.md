@@ -4,13 +4,33 @@ title= "Colours"
 
 The most common colours are textbook black and white, `#000` and `#fff`, respectively. Other accents may be used from time to time. These can be, but are not limited to:
 
-<section class="sandbox">
-	<p class="--farer-red">Red— #f65</p>
-	<p class="--farer-orange">Orange— #ZZZZZZ</p>
-	<p class="--farer-green">Green— #2d7</p>
-	<p class="--farer-blue">Blue— #7bf</p>
-	<p class="--farer-purple">Purple— #ZZZZZZ</p>
-</section>
+## Colours
+- Red— #f65
+- Orange— #ZZZZZZ
+- Yellow— #ZZZZZZ
+- Green— #2d7
+- Blue— #7bf
+- Purple— #ZZZZZZ
+- White— #eee
+- Key, Black— #000
+
+## Examples
+```
+<p class="f--r">Red— #f65</p>
+<p class="f--o">Orange— #ZZZZZZ</p>
+<p class="f--y">Yellow— #ZZZZZZ</p>
+<p class="f--g">Green— #2d7</p>
+<p class="f--b">Blue— #7bf</p>
+<p class="f--p">Purple— #ZZZZZZ</p>
+```
+<fa-sandbox>
+	<p class="f--r">Red— #f65</p>
+	<p class="f--o">Orange— #ZZZZZZ</p>
+  <p class="f--y">Yellow— #ZZZZZZ</p>
+	<p class="f--g">Green— #2d7</p>
+	<p class="f--b">Blue— #7bf</p>
+	<p class="f--p">Purple— #ZZZZZZ</p>
+</fa-sandbox>
 
 ## Addressing colour contrast
 Colours should meet or exceed a contrast ratio of 5:1. To calculate a contrast ratio, use the formula: `(L1 + 0.05) / (L2 + 0.05)`; where:

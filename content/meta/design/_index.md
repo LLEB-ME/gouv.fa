@@ -8,6 +8,7 @@ The Farer Design System was established in December 2022 to establish and standa
 ---
 
 ### Components
+- [Alerts](/meta/design/alerts)
 - [Buttons](/meta/design/buttons)
 - [Input fields](/meta/design/inputs)
 - [Navigation (navbar, footer)](/meta/design/navigation)
