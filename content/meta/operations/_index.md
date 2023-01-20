@@ -13,7 +13,12 @@ The listed business entities may still be pending.
   - [Articles of organization (0,00 Mo)](#)
   - [Translated articles of organization (0,00 Mo)](#)
 
-## Recurring costs by region
+## Finances
+- Income worldwide yearly— 0$ US
+- Expenses worldwide yearly— 19$ US
+- Net outcome yearly— -19$ US 
+
+### Recurring costs by region
 Prices labelled XX have either not started or have not been decided upon.
 
 - Global
@@ -28,5 +33,5 @@ Prices labelled XX have either not started or have not been decided upon.
   - XX$/year — `farer.eu` domain
   - XX$/year — Registered office and forwarding
 
-## Revenue streams
+### Revenue streams by region
 None.
