@@ -2,6 +2,7 @@
 title= "Confirmed dates for upcoming Farer event"
 description= "The upcoming Farer event has had its dates confirmed by the City of Anaheim."
 date= 2023-01-01
+draft= true
 
 [extra]
 author= "Matt Ronchetto"
