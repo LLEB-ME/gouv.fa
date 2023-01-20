@@ -37,24 +37,24 @@ article {
   h3 { font-size: 1.2rem; }
 }
 ul {
-  li { margin: .3rem 0; }
-  li:first-child { margin-top: 0; }
-  li:last-child { margin-bottom: 0; }
+  li {
+    margin: .3rem 0;
+    &:first-child { margin-top: 0; }
+    &:last-child { margin-bottom: 0; }
+  }
 }
 
 //
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   margin: 0 auto;
   max-width: 80ch;
   padding: 0 2rem;
-  :first-child { margin-left: 0; }
   section {
-    // TODO: Narrow on proper mobile view
-    flex: 1 1 0;
     max-width: 100%;
+    width: 100%;
     margin: 32px 16px 8px;
     padding-left: 12px;
     border-left: 4px solid $farer-w;
