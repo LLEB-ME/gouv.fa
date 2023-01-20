@@ -7,6 +7,7 @@
 header {
   background: $farer-k;
   color: #fff;
+  width: 100%;
 }
 
 nav {
@@ -31,6 +32,31 @@ nav {
     flex-flow: row;
     margin: 0 auto;
   }
+}
+
+main { width: 100%; }
+li { margin: .3rem 0; }
+article {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 80ch;
+  @media print { padding: 0; }
+}
+footer {
+  background: $farer-k;
+  color: #fff;
+  div {
+    padding: 1rem 2rem 3rem;
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+  section {
+    a {
+      margin: 0 .5rem;
+      &:first-child { margin-left: 0; }
+    }
+  }
+  @media print { display: none !important; }
 }
 
 /// /// ///      /// /// ///
