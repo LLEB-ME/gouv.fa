@@ -1,0 +1,112 @@
+{
+	"base_url": "https://gouv.fa",
+	"permalink": "pretty",
+	
+	"i18n": [
+		"search": {
+			"en": "Search",
+			"fr": "Rechercher"
+		},
+		"news": {
+			"en": "News",
+			"fr": "Actualités"
+		},
+		"searchlbl": {
+			"en": "Search pages",
+			"fr": "Rechercher les pages"
+		},
+		"help": {
+			"en": "Help",
+			"fr": "Obtenez de l'aide"
+		}
+		"contact": {
+			"en": "Contact",
+			"fr": "Contactez-nous"
+		},
+		"copyright": {
+			"en": "Some rights reserved.",
+			"fr": "Certains droits réservés."
+		},
+		"lastupdated": {
+			"en": "Last updated",
+			"fr": "Mis à jour",
+		},
+
+		"tag_farer": {
+			"en": "Official service",
+			"fr": "Service officiel"
+		},
+		"tag_farer_desc": {
+			"en": "This service is run by the Farer Group.",
+			"fr": "Ce service est assuré par The Farer Group."
+		},
+		"tag_restricted": {
+			"en": "Restricted",
+			"fr": "Accès limité"
+		},
+		"tag_restricted_desc": {
+			"en": "This service isn't open to all Farer members, Farer visitors, or is intended for a certain group of people.",
+			"fr": "Ce service n’est pas disponible pour tous les membres de Farer, les visiteurs de Farer, ou est destiné à un certain groupe de personnes."
+		},
+		"tag_certified": {
+			"en": "Certified",
+			"fr": "Certifié"
+		},
+		"tag_certified_desc": {
+			"en": "This service has been certified to be compliant with Farer policies. A report of such can be found via FarerNIC.",
+			"fr": "Ce service a été certifié conforme aux politiques Farer. Un rapport à ce sujet peut être trouvé via FarerNIC."
+		},
+
+		"form-name": {
+			"en": "What are your given names?",
+			"fr": "Quels sont vos prénoms?",
+		},
+		"form-surnom": {
+			"en": "What is your surname?",
+			"fr": "Quel est votre nom de famille?"
+		},
+		"form-email": {
+			"en": "What is your Farer-issued email address?",
+			"fr": "Quel est votre e-mail émise par Farer?"
+		},
+		"form-memberid": {
+			"en": "What is your member ID?",
+			"fr": "Quel est votre numéro de ID émise par Farer?"
+		},
+		"form-address-notice": {
+			"en": "This is only required if you are requesting a physical document.",
+			"fr": "Ceci n'est requis que si vous demandez un document physique."
+		},
+		"form-address": {
+			"en": "What is your mailing address?",
+			"fr": "Quelle est votre adresse postale?"
+		}
+		"form-address-street": {
+			"en": "Postal address",
+			"fr": "Adresse postale"
+		},
+		"form-address-addt": {
+			"en": "Supplemental informations",
+			"fr": "Informations supplémentaires"
+		},
+		"form-address-city": {
+			"en": "City",
+			"fr": "Ville"
+		},
+		"form-address-postal": {
+			"en": "Postal code",
+			"fr": "Code d'postal"
+		},
+		"form-address-country": {
+			"en": "Country",
+			"fr": "Pays"
+		},
+		"form-requireddocs": {
+			"en": "Be sure to include the following documents in your request:",
+			"fr": "Assurez-vous d'inclure les documents suivants dans votre demande:"
+		},
+		"form-proofofmembership": {
+			"en": "Proof of Farer Membership",
+			"fr': "Preuve d’adhésion à Farer"
+		}
+}
