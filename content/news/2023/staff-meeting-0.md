@@ -9,6 +9,10 @@ aliases = ["/sm/2023-04-09"]
 author= "Matt Ronchetto"
 +++
 
+## Summary of meeting
+
+
+
 ## Agenda
 
 ### Proposal to migrate from CoreDNS to BIND
@@ -35,4 +39,3 @@ The following tasks need to be scheduled or re-scheduled:
   - Research into development and deployment of in-house ID cards
   - Roll-out of internal Mail server
   - Research provisions to delegate more hardware to regions
-  
