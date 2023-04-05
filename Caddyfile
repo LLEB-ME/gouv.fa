@@ -33,14 +33,10 @@ http://www.fa {
 	redir http://gouv.fa{uri}
 }
 
-#farer.group {
+#clear.farer.group {
 #	encode zstd gzip
 #	file_server {
 #		precompressed br
 #	}
 #	root * /srv/sites/farer.group/public
-#}
-#www.farer.group {
-#	encode zstd gzip
-#	redir https://farer.group{uri}
 #}
