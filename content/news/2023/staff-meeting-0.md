@@ -39,3 +39,12 @@ The following tasks need to be scheduled or re-scheduled:
   - Research into development and deployment of in-house ID cards
   - Roll-out of internal Mail server
   - Research provisions to delegate more hardware to regions
+  - Deployment of Gouv.fa to other Farer -owned and -rented servers to prevent downtime of this core resource.
+  - Deployment of internal Git server
+
+### Re-deployment of `us-ksan-rilakkuma` to test MicroOS
+Guided by: Matthew RONCHETTO<br>
+
+openSUSE MicroOS has been installed and is currently used to host Gouv.fa. It uses an immutable root and will allow servers to be in compliance with [2022-003](/fedlex/2022-003) with greater ease.
+
+In the coming months, testing of the Nitrokey HSM 2 in the scope of The Farer Group and hardware encryption with Farer-owned servers. The device is sold at 99 EUR (TTC; *toutes taxes comprises*/all taxes included). Further research into HSMs is necessary to ensure all owned servers can be brought into complaince with 2022-003.
