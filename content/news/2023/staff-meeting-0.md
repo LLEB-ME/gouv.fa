@@ -4,6 +4,7 @@ description= ""
 date= 2023-04-09
 draft= true
 aliases = ["/sm/2023-04-09"]
+updated= 2023-05-14
 
 [extra]
 author= "Matt Ronchetto"
@@ -14,7 +15,7 @@ author= "Matt Ronchetto"
 - New deadlines have been established for staff. See [Remanagement of Staff Deadlines](#remanangement-of-staff-deadlines) for more information.
 - MicroOS has been confirmed to be a suitable operating system for use in Farer -owner and -rented servers. This is in addition to Alpine Linux (using Diskless Mode/`lbu`).
 
-Next meeting scheduled for 24 April, 2023 at 16:00 PT / 19:00 PT
+Next meeting scheduled for 24 April, 2023 at 16:00 PT / 19:00 ET
 
 ## Agenda
 
