@@ -2,7 +2,7 @@
 title= "9 April Staff Meeting Notes"
 description= ""
 date= 2023-04-09
-draft= true
+draft= false
 aliases = ["/sm/2023-04-09"]
 updated= 2023-05-14
 
