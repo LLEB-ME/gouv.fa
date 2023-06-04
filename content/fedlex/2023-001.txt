@@ -1,0 +1,143 @@
+# 2023-001 : 
+
+## 0. Preamble
+
+## 1.  Rights of members, Membership, and Social goals
+### Ch. 1 : Rights of members
+#### Art. 1 : Right to equal treatment
+Every person must never be discriminated by : (a) origin, (b) race, (c) gender, (d) age, (e) language, (f) way of life, (g) religion, (h) ideology, (i) political opinion, (j) disability, (k) sex, (l) sexual identity ; or, (m) sexual orientation.
+#### Art. 2 : Right to privacy
+The right to be protected against the misuse of their personal data is guaranteed.
+
+The right to privacy in their lives and in relation to any communications taken part in or out of the Farer network is guaranteed.
+
+The right to have their personal data kept secure at all times is guaranteed. 
+#### Art. 3 : Right to basic freedoms
+Every person has the right to their basic freedoms of : (a) religion and conscience, (b) expression and access to information, (c) media and freedom from censorship, (d) use of language, (e) artistic expression, (f) assembly and petition, (g) economic freedom ; and : (h) property ownership.
+
+Freedom of the press, radio, television, and other forms of dissemination is guaranteed. Censorship is prohibited. The protection of sources is guaranteed.
+
+Every member also has the right to : (i) association, professional or otherwise ; and, (j) domicile within an incorporated, independent Farer region.
+#### Art. 4 : Right to expand
+Every member has the right to invite any person into the Farer network.
+
+There are no limits to the number of people that a person can invite.
+#### Art. 5 : Right to access Farer
+Every member has the right to access Farer services at any time.
+
+Access to all services and content must not be prevented on the basis of any discrimination, nor based on geographical location. Services provided by The Farer Group cannot require payment in any shape and must be equally accessible by all Farer members.
+#### Art. 6 : Right to vote or repeal policies
+Every member has the right to vote on policies that have been proposed within the two-week window allotted.
+
+Members also have the right to vote to repeal a policy enacted.
+
+Both instances require a majority vote to successfully enact or repeal a policy.
+#### Art. 7 : Right to serve content within Farer
+Every member has the right to serve  content within Farer.
+
+No member can host : (a) pornography of any kind, (b) real-life gore or similar graphic content, (c) statements that incite violence, infringe a member's rights, or other harm to people and/or property, (d) sale of drugs, firearms, or products of human remains, (e) criminal for hire, (f) distribution on information intended to be private, bar that that has been whistleblown or protected under the jurisdiction of the information distributed or that of the distributor ; or, (g) other illegal activities.
+
+Those hosting this content must stop immediately and destroy it. If hosted knowingly, those hosting may be liable to face penalties within Farer and their physical jurisdiction.
+#### Art. 8 : Right to not have rights infringed upon
+Every person has the right to not have rights infringed upon by any person or any group of people.
+
+Farer members cannot knowingly prevent other members from exercising, or infringe upon, any person's rights.
+#### Art. 9 : Additional rights not outlined
+Any rights and powers not delegated or otherwise prohibited to The Farer Group are reserved to the Farer members.
+### Ch. 2 : Membership
+#### Art. 1 : Becoming a member
+Membership is not inheritable through birth, marriage, or adoption and can be revoked when any policy is broken by a review of their peers or by a majority vote of at least 75% of staff members.
+
+Members must have a general working proficiency in either English or French. This requirement may be closest compared to CEFR level B1[^1]. Members are expected to communicate in one of these official languages. No support is guaranteed for other languages.
+
+Members are expected to understand that there si
+
+[^1]: CEFR B1 is defined by the Council of Europe as being able to : (a) understand matters regularly encountered in work, school, leisure, et al., (b) being able to deal with matters likely to occur while travelling in an area where the language is spoken, (c) able to produce text on familiar topics or of personal interest ; and, (d) able to describe experiences, events, dreams, and hopes and briefly explain such.
+#### Art. 2 : Rescinding or revoking membership
+Every member has the right to rescind their membership at any time. They must properly declare such via Farer's website or to their region via the methods that it accepts.
+
+The Farer Group retains the possibility to revoke the one's membership, should they break policies. That person may be barred from Farer and have their membership revoked. The member who referred this member may face similar punishment if it can be proven without a reasonable doubt that the referral was with malicious intent.
+
+A referendum can be established to revoke the membership of any person, provided a majority vote of 80% of members.
+#### Art. 4 : Becoming a staff member
+No Farer member loses the protections by becoming a staff member.
+
+Regional staff members are appointed by direct election of its people.
+
+A regional staff member can then become a global staff member by nomination from its people, followed by a 75% vote of the member population.
+#### Art. 5 : Removing a staff member
+A regional staff member can be removed from power by a 80% vote of the region's people or by an unanimous decision of staff members. 
+
+Global staff members can be removed from power by a 75% vote of the member population or by an unanimous decision of staff members.
+#### Art. 6 : Residents of a Farer region
+In the event of an incorporated region of Farer where one can receive residency, additional rights are reserved.
+
+Any person may freely enter and leave the Farer region without the need to prove their identity.
+
+Only Farer members may reside or work within the Farer region. These members may have to prove their membership and identity using identification documents provided by The Farer Group.
+
+Every person within the region has a right to life – the death penalty is prohibited. Torture and other forms of cruel, inhuman, or degrading treatment or punishment are prohibited.
+
+No persons within the region may be expelled or extradited to a foreign authority.
+
+All electricity generated by The Farer Group must be done so in a 100% renewable manner and with as minimal pollution as possible.
+
+All water gathered by The Farer Group must be potable, with water intended for consumption meeting or exceeding the Environmental Working Group's recommendations for water quality. All waste water must be collected by The Farer Group and treated to meet the original water quality requirements. Strict regulations on the protection, conservation, and preservation of water resources may be implemented by regional authorities.
+
+The production of oil or natural gas is prohibited. Energy produced by the burning of coal, oil, or natural gas by The Farer Group is prohibited.
+
+All waste produced must be collected by The Farer Group and properly recycled and composted. Landfill supply must be treated to best of theoretical capability.
+
+An adequate range of public transport services should be provided on rail, roads, water, and by cableway. The burden of cost shall be covered to an appropriate extent by its users.
+
+Imported resources should be minimised as much as feasible in favour of local production. The prohibition of imported resources is not permitted under any circumstances.
+
+### Ch. 3 : Social goals
+The Farer Group must ensure that every person who is able to work can do so under fair conditions, as defined by meeting or exceeding the standards outlined by Fairtrade International.
+
+Farer members must not impose religion, politics, or other ideologies on other members or people of the general public.
+
+Farer members must exert common sense, so as not to : (a) attempt circumvention of Access-Control Lists, (b) flood traffic to any servers ; and/or, (c) use Farer for any purposes that are illegal in the member's physical jurisdiction or the jurisdiction of Farer's servers.
+
+Farer members are prohibited from abusing the data they have access to. This includes distributing any data that is intended to be private.
+
+All products and services made by a Farer member must not mislead or exploit users in their design or content. It must support a circular economy that nourishes all people and the planet.
+
+Documents marked explicitly by The Farer Group as being for "internal use only" or meant to stay within Farer are prohibited from being distributed unless otherwise changed and marked to be okay for distribution.
+
+## 2. Regions of Farer 
+### Art. 1 : Establishment of a Farer region
+An unincorporated Farer region may be established if there is an abundance of Farer members in one area that establish a local referendum where 80% of the local members agree to establish a region. This can then be submitted to The Farer Group's global staff members to be approved and made official.
+### Art. 2 : Obligations and rights of regions
+Regions must ensure all members and servers within the region are compliant with the Common law. Regions must ensure the rights of its members are respected.
+
+Regions must reliably be able to help Farer members be able to complete day-to-day tasks and be the first point of staff contact.
+
+Regions have the right to issue official identity documents bearing The Farer Group for provable regional residents.
+
+Regions may establish branches within it to aid in processing data or to allow more specialised information to be provided.
+
+Regions must provide all information in the both English and French, as well as any additional official languages of the region.
+
+Regions must use the domain name allocated for them for all operations. This domain name is based on the name of the region, formatted in the ISO basic Latin alphabet [^1] and using hyphens (-) for spaces, under the top-level domain (TLD) of FARER. An example of such would be `europe.farer`, where `europe` is the region and `.farer` is the FARER TLD.
+
+[^1]: The ISO basic Latin alphabet (ISO/IEC 646) uses the following characters : ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .
+
+Regional staff members must exercise  these obligations and rights. Failure to do so may result in the revocation of their status as a regional staff member or repulsion of their membership.
+### Art. 3 : Authorised and unauthorised data collection and usage
+User analytics, bar basic anonymous page "hits", are prohibited.
+
+Data must not be used for tracking, marketing, or spam.
+
+Distribution of any data to any third-parties, including those within Farer, is prohibited, unless necessary to provide the core service or with the explicit consent of the user.
+
+## 3. Obligations of The Farer Group and global staff members
+### Art. 1 : Ethical and sustainable deployment and development
+Servers hosted by The Farer Group must be as close to 100% truly renewable energy as possible. Servers not running on green energy cannot make any claims that it is, regardless of a carbon offsetting program.
+
+Servers hosted by The Farer Group must use as material, electrical, and digital resources as possible – in other words, they must be as efficient as possible.
+### Art. 2 : Document publishing
+All documents produced by The Farer Group including, but not limited to : the common law and documents necessary for a member to act on their rights ; must be written in plain language. Plain language is defined as a document that : (a) uses gender neutral language, where appropriate, (b) is written at CEFR level B1 ; and, (c) explains clearly and defining any language created within the document.
+
+## 4. Revising this document
+This document can be revised by any person. Revisions must be voted by referendum of the people in an 80% majority or a 90% majority of staff members.
